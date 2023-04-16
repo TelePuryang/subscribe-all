@@ -443,7 +443,7 @@ proxies:
         },
     }
   - {
-      "name": "水印：赵曦",
+      "name": "水印：子豪",
       "type": "vmess",
       "server": "hntelecom.ifanr.org",
       "port": 20702,
@@ -483,11 +483,11 @@ proxies:
     }
 
 proxy-groups:
-  - name: 你好，赵曦！
+  - name: 你好，子豪！
     type: select
     proxies:
       - 内部维护管理员:翼臣
-      - 水印：赵曦
+      - 水印：子豪
       - 你的使用数据完全保密，放心使用。
       - 有问题请联系管理员
 
