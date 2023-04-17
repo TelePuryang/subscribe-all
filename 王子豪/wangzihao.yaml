@@ -208,7 +208,6 @@ proxy-groups:
   - name: 代理
     type: select
     proxies:
-      - 不使用代理，直接连接。
       - 🇮🇳-IN-中国-印度- I
       - 🇨🇳-TW-中国-台湾- I
       - 🇨🇳-TW-中国-台湾- II

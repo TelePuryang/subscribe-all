@@ -27,7 +27,7 @@ proxies:
         },
     }
   - {
-      "name": "水印:磊帅",
+      "name": "水印:姚磊帅",
       "type": "vmess",
       "server": "ana.ink",
       "port": 20407,
@@ -198,17 +198,16 @@ proxies:
     }
 
 proxy-groups:
-  - name: 你好,磊帅！
+  - name: 你好,姚磊帅！
     type: select
     proxies:
       - 维护:YYC
-      - 水印:磊帅
+      - 水印:姚磊帅
       - 你的使用数据完全保密，放心使用。
 
   - name: 代理
     type: select
     proxies:
-      - 不使用代理，直接连接。
       - 🇮🇳-IN-中国-印度- I
       - 🇨🇳-TW-中国-台湾- I
       - 🇨🇳-TW-中国-台湾- II
