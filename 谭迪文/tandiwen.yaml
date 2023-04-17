@@ -178,7 +178,7 @@ proxies:
     }
 
   - {
-      "name": "维护:翼臣",
+      "name": "维护:YYC",
       "type": "vmess",
       "server": "yana.ink",
       "port": 20407,
@@ -201,7 +201,7 @@ proxy-groups:
   - name: 你好,迪文！
     type: select
     proxies:
-      - 维护:翼臣
+      - 维护:YYC
       - 水印:迪文
       - 你的使用数据完全保密，放心使用。
 
