@@ -26,7 +26,7 @@ proxies:
     }  
 
   - {
-      "name": "水印:子豪",
+      "name": "水印:美化",
       "type": "vmess",
       "server": "hntelecom.ifanr.org",
       "port": 20702,
@@ -485,11 +485,11 @@ proxies:
     }
 
 proxy-groups:
-  - name: 你好，子豪！
+  - name: 你好，美化！
     type: select
     proxies:
       - 维护:翼臣
-      - 水印：子豪
+      - 水印：美化
       - 你的使用数据完全保密，放心使用。
       - 有问题请联系管理员
 
