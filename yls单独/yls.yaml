@@ -8,7 +8,7 @@ external-controller: 0.0.0.0:9090
 secret: ""
 proxies:
   - {
-      "name": "宝贝,有问题联系我",
+      "name": "宝贝,使用配置，别使用代理模式。",
       "type": "vmess",
       "server": "ana.ink",
       "port": 20407,
