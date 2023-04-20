@@ -70,7 +70,6 @@ proxy-groups:
   - name: 代理服务器
     type: select
     proxies:
-      - 直连
       - 🇨🇳-CN-赵曦-中国-印度 I
       - 🇨🇳-CN-赵曦-中国-台湾 I
       - 🇨🇳-CN-赵曦-中国-台湾 II
@@ -94,9 +93,7 @@ proxy-groups:
   - name: 其他
     type: select
     proxies:
-      - 代理服务器
       - 直连
-      - 禁止访问
   - name: 直连
     type: select
     proxies:

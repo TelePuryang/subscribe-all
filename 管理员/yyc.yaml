@@ -7,7 +7,7 @@ log-level: silent
 external-controller: 0.0.0.0:9090
 secret: ""
 proxies:
-  - { "name": "测试排查问题,序号2,翼臣", "type": "vmess", "server": "yycm.top", "port": 108, "uuid": "14e03739-bb0c-3866-a286-02d5372d527a", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
+  - { "name": "测试排查问题,序号1,翼臣", "type": "vmess", "server": "yycm.top", "port": 108, "uuid": "14e03739-bb0c-3866-a286-02d5372d527a", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
   - { "name": "🇨🇳-CN-翼臣-中国-印度
         I", "type": "vmess", "server": "yycmvm.ifaner.top", "port": 1008, "uuid": "14e03739-bb0c-3866-a286-02d5372d527a", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
   - { "name": "🇨🇳-CN-翼臣-中国-台湾
@@ -70,7 +70,6 @@ proxy-groups:
   - name: 代理服务器
     type: select
     proxies:
-      - 直连
       - 🇨🇳-CN-翼臣-中国-印度 I
       - 🇨🇳-CN-翼臣-中国-台湾 I
       - 🇨🇳-CN-翼臣-中国-台湾 II
@@ -94,9 +93,7 @@ proxy-groups:
   - name: 其他
     type: select
     proxies:
-      - 代理服务器
       - 直连
-      - 禁止访问
   - name: 直连
     type: select
     proxies:
