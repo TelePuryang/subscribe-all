@@ -7,7 +7,7 @@ log-level: silent
 external-controller: 0.0.0.0:9090
 secret: ""
 proxies:
-  - { "name": "测试排查问题,赵曦", "type": "vmess", "server": "yycm.top", "port": 108, "uuid": "14e03739-bb0c-3866-a286-02d5372d527a", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
+  - { "name": "测试排查问题,序号1,赵曦", "type": "vmess", "server": "yycm.top", "port": 108, "uuid": "14e03739-bb0c-3866-a286-02d5372d527a", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
   - { "name": "🇨🇳-CN-赵曦-中国-印度
         I", "type": "vmess", "server": "yycmvm.ifaner.top", "port": 1008, "uuid": "14e03739-bb0c-3866-a286-02d5372d527a", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
   - { "name": "🇨🇳-CN-赵曦-中国-台湾
@@ -1211,7 +1211,7 @@ rules:
   - DOMAIN-SUFFIX,zhimg.com,DIRECT
   - DOMAIN-SUFFIX,zhuihd.com,DIRECT
   - DOMAIN,download.jetbrains.com,DIRECT
-  - DOMAIN,images-CN-赵曦.ssl-images-amazon.com,DIRECT
+  - DOMAIN,images-cn.ssl-images-amazon.com,DIRECT
   - IP-CIDR,119.28.28.28/32,DIRECT,no-resolve
-  - GEOIP,CN-赵曦,DIRECT
+  - GEOIP,CN,DIRECT
   - MATCH,其他
