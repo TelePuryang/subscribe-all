@@ -7,105 +7,51 @@ log-level: silent
 external-controller: 0.0.0.0:9090
 secret: ""
 proxies:
+  - { "name": "测试排查问题,赵曦", "type": "vmess", "server": "yycm.top", "port": 108, "uuid": "14e03739-bb0c-3866-a286-02d5372d527a", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
+  - { "name": "🇨🇳-CN-赵曦-中国-印度
+        I", "type": "vmess", "server": "yycmvm.ifaner.top", "port": 1008, "uuid": "14e03739-bb0c-3866-a286-02d5372d527a", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
+  - { "name": "🇨🇳-CN-赵曦-中国-台湾
+        I", "type": "vmess", "server": "yycmvm.ifaner.top", "port": 5152, "uuid": "14e03739-bb0c-3866-a286-02d5372d527a", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
+  - { "name": "🇨🇳-CN-赵曦-中国-台湾
+        II", "type": "vmess", "server": "yycmvm.ifaner.top", "port": 37617, "uuid": "14e03739-bb0c-3866-a286-02d5372d527a", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
+  - { "name": "🇨🇳-CN-赵曦-中国-台湾
+        III", "type": "vmess", "server": "yycmvm.ifaner.top", "port": 17617, "uuid": "14e03739-bb0c-3866-a286-02d5372d527a", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
+  - { "name": "🇨🇳-CN-赵曦-中国-台湾
+        IV", "type": "vmess", "server": "mzqlpieszcm.ifaner.club", "port": 59909, "uuid": "14e03739-bb0c-3866-a286-02d5372d527a", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
+  - { "name": "🇨🇳-CN-赵曦-中国-德国
+        -DE", "type": "vmess", "server": "yycmvm.ifaner.top", "port": 50717, "uuid": "14e03739-bb0c-3866-a286-02d5372d527a", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
+  - { "name": "🇨🇳-CN-赵曦-中国-新加坡
+        I", "type": "vmess", "server": "yycmvm.ifaner.top", "port": 44342, "uuid": "14e03739-bb0c-3866-a286-02d5372d527a", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
+  - { "name": "🇨🇳-CN-赵曦-中国-新加坡
+        II", "type": "vmess", "server": "yycmvm.ifaner.top", "port": 28373, "uuid": "14e03739-bb0c-3866-a286-02d5372d527a", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
+  - { "name": "🇨🇳-CN-赵曦-中国-新加坡
+        III", "type": "vmess", "server": "mzqlpieszcm.ifaner.club", "port": 20715, "uuid": "14e03739-bb0c-3866-a286-02d5372d527a", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
+  - { "name": "🇨🇳-CN-赵曦-中国-日本
+        I", "type": "vmess", "server": "yycmvm.ifaner.top", "port": 32228, "uuid": "14e03739-bb0c-3866-a286-02d5372d527a", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
+  - { "name": "🇨🇳-CN-赵曦-中国-日本
+        II", "type": "vmess", "server": "hntelecom.ifanr.org", "port": 22513, "uuid": "14e03739-bb0c-3866-a286-02d5372d527a", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
+  - { "name": "🇨🇳-CN-赵曦-中国-日本
+        III", "type": "vmess", "server": "yycmvm.ifaner.top", "port": 10433, "uuid": "14e03739-bb0c-3866-a286-02d5372d527a", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
+  - { "name": "🇨🇳-CN-赵曦-中国-日本
+        IV", "type": "vmess", "server": "hntelecom.ifanr.org", "port": 28874, "uuid": "14e03739-bb0c-3866-a286-02d5372d527a", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
+  - { "name": "🇨🇳-CN-赵曦-中国-美国
+        VI", "type": "vmess", "server": "hntelecom.ifanr.org", "port": 20703, "uuid": "14e03739-bb0c-3866-a286-02d5372d527a", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
+  - { "name": "🇨🇳-CN-赵曦-中国-美国
+        I", "type": "vmess", "server": "hntelecom.ifanr.org", "port": 50749, "uuid": "14e03739-bb0c-3866-a286-02d5372d527a", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
+  - { "name": "🇨🇳-CN-赵曦-中国-美国
+        II", "type": "vmess", "server": "yycmvm.bana.ink", "port": 20514, "uuid": "14e03739-bb0c-3866-a286-02d5372d527a", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
+  - { "name": "🇨🇳-CN-赵曦-中国-美国
+        III", "type": "vmess", "server": "hntelecom.ifanr.org", "port": 20627, "uuid": "14e03739-bb0c-3866-a286-02d5372d527a", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
+  - { "name": "🇨🇳-CN-赵曦-中国-美国
+        IV", "type": "vmess", "server": "yycmvm.bana.ink", "port": 59028, "uuid": "14e03739-bb0c-3866-a286-02d5372d527a", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
+  - { "name": "🇨🇳-CN-赵曦-中国-美国
+        V", "type": "vmess", "server": "hntelecom.ifanr.org", "port": 20702, "uuid": "14e03739-bb0c-3866-a286-02d5372d527a", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
   - {
-      "name": "使用配置，别使用代理模式。",
-      "type": "vmess",
-      "server": "ana.ink",
-      "port": 20407,
-      "uuid": "90b52869-dffc-3d97-9331-02f4686c2b4f",
-      "alterId": 0,
-      "cipher": "auto",
-      "udp": true,
-      "servername": "support.microsoft.com",
-      "network": "ws",
-      "ws-path": "/microsoft/support",
-      "ws-headers": { "Host": "support.microsoft.com" },
-      "ws-opts":
-        {
-          "path": "/microsoft/support",
-          "headers": { "Host": "support.microsoft.com" },
-        },
-    }
-  - {
-      "name": "水印:赵曦",
-      "type": "vmess",
-      "server": "ana.ink",
-      "port": 20407,
-      "uuid": "90b52869-dffc-3d97-9331-02f4686c2b4f",
-      "alterId": 0,
-      "cipher": "auto",
-      "udp": true,
-      "servername": "support.microsoft.com",
-      "network": "ws",
-      "ws-path": "/microsoft/support",
-      "ws-headers": { "Host": "support.microsoft.com" },
-      "ws-opts":
-        {
-          "path": "/microsoft/support",
-          "headers": { "Host": "support.microsoft.com" },
-        },
-    }
-  - { "name": "🇮🇳-IN-中国-印度-
-        I", "type": "vmess", "server": "yycmvm.ifaner.top", "port": 1008, "uuid": "90b52869-dffc-3d97-9331-02f4686c2b4f", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
-  - { "name": "🇨🇳-TW-中国-台湾-
-        I", "type": "vmess", "server": "yycmvm.ifaner.top", "port": 5152, "uuid": "90b52869-dffc-3d97-9331-02f4686c2b4f", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
-  - { "name": "🇨🇳-TW-中国-台湾-
-        II", "type": "vmess", "server": "yycmvm.ifaner.top", "port": 37617, "uuid": "90b52869-dffc-3d97-9331-02f4686c2b4f", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
-  - { "name": "🇨🇳-TW-中国-台湾-
-        III", "type": "vmess", "server": "yycmvm.ifaner.top", "port": 17617, "uuid": "90b52869-dffc-3d97-9331-02f4686c2b4f", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
-  - { "name": "🇨🇳-TW-中国-台湾-
-        IV", "type": "vmess", "server": "mzqlpieszcm.ifaner.club", "port": 59909, "uuid": "90b52869-dffc-3d97-9331-02f4686c2b4f", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
-  - { "name": "🇩🇪-DE-中国-德国-
-        -", "type": "vmess", "server": "yycmvm.ifaner.top", "port": 50717, "uuid": "90b52869-dffc-3d97-9331-02f4686c2b4f", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
-  - { "name": "🇸🇬-SG-中国-新加坡-
-        I", "type": "vmess", "server": "yycmvm.ifaner.top", "port": 44342, "uuid": "90b52869-dffc-3d97-9331-02f4686c2b4f", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
-  - { "name": "🇸🇬-SG-中国-新加坡-
-        II", "type": "vmess", "server": "yycmvm.ifaner.top", "port": 28373, "uuid": "90b52869-dffc-3d97-9331-02f4686c2b4f", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
-  - { "name": "🇸🇬-SG-中国-新加坡-
-        III", "type": "vmess", "server": "mzqlpieszcm.ifaner.club", "port": 20715, "uuid": "90b52869-dffc-3d97-9331-02f4686c2b4f", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
-  - { "name": "🇯🇵-JP-中国-日本-
-        I", "type": "vmess", "server": "yycmvm.ifaner.top", "port": 32228, "uuid": "90b52869-dffc-3d97-9331-02f4686c2b4f", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
-  - { "name": "🇯🇵-JP-中国-日本-
-        II", "type": "vmess", "server": "hntelecom.ifanr.org", "port": 22513, "uuid": "90b52869-dffc-3d97-9331-02f4686c2b4f", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
-  - { "name": "🇯🇵-JP-中国-日本-
-        III", "type": "vmess", "server": "yycmvm.ifaner.top", "port": 10433, "uuid": "90b52869-dffc-3d97-9331-02f4686c2b4f", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
-  - { "name": "🇯🇵-JP-中国-日本-
-        IV", "type": "vmess", "server": "hntelecom.ifanr.org", "port": 28874, "uuid": "90b52869-dffc-3d97-9331-02f4686c2b4f", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
-  - {
-      "name": "🇻🇮-中国-美属维尔京群岛-美国",
-      "type": "vmess",
-      "server": "hntelecom.ifanr.org",
-      "port": 20703,
-      "uuid": "90b52869-dffc-3d97-9331-02f4686c2b4f",
-      "alterId": 0,
-      "cipher": "auto",
-      "udp": true,
-      "servername": "support.microsoft.com",
-      "network": "ws",
-      "ws-path": "/microsoft/support",
-      "ws-headers": { "Host": "support.microsoft.com" },
-      "ws-opts":
-        {
-          "path": "/microsoft/support",
-          "headers": { "Host": "support.microsoft.com" },
-        },
-    }
-  - { "name": "🇺🇸-US-中国-美国-
-        I", "type": "vmess", "server": "hntelecom.ifanr.org", "port": 50749, "uuid": "90b52869-dffc-3d97-9331-02f4686c2b4f", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
-  - { "name": "🇺🇸-US-中国-美国-
-        II", "type": "vmess", "server": "yycmvm.bana.ink", "port": 20514, "uuid": "90b52869-dffc-3d97-9331-02f4686c2b4f", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
-  - { "name": "🇺🇸-US-中国-美国-
-        III", "type": "vmess", "server": "hntelecom.ifanr.org", "port": 20627, "uuid": "90b52869-dffc-3d97-9331-02f4686c2b4f", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
-  - { "name": "🇺🇸-US-中国-美国-
-        IV", "type": "vmess", "server": "yycmvm.bana.ink", "port": 59028, "uuid": "90b52869-dffc-3d97-9331-02f4686c2b4f", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
-  - { "name": "🇺🇸-US-中国-美国-
-        V", "type": "vmess", "server": "hntelecom.ifanr.org", "port": 20702, "uuid": "90b52869-dffc-3d97-9331-02f4686c2b4f", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
-  - {
-      "name": "🇰🇷-KR-中国-韩国",
+      "name": "🇨🇳-CN-赵曦-中国-韩国Kr",
       "type": "vmess",
       "server": "yycmvm.bana.ink",
       "port": 20407,
-      "uuid": "90b52869-dffc-3d97-9331-02f4686c2b4f",
+      "uuid": "14e03739-bb0c-3866-a286-02d5372d527a",
       "alterId": 0,
       "cipher": "auto",
       "udp": true,
@@ -119,884 +65,800 @@ proxies:
           "headers": { "Host": "support.microsoft.com" },
         },
     }
-  - {
-      "name": "不要分享给别人。",
-      "type": "vmess",
-      "server": "yybana.ink",
-      "port": 20407,
-      "uuid": "90b52869-dffc-3d97-9331-02f4686c2b4f",
-      "alterId": 0,
-      "cipher": "auto",
-      "udp": true,
-      "servername": "support.microsoft.com",
-      "network": "ws",
-      "ws-path": "/microsoft/support",
-      "ws-headers": { "Host": "support.microsoft.com" },
-      "ws-opts":
-        {
-          "path": "/microsoft/support",
-          "headers": { "Host": "support.microsoft.com" },
-        },
-    }
-  - {
-      "name": "这会大大增加我服务器流量成本。",
-      "type": "vmess",
-      "server": "yycbana.ink",
-      "port": 20407,
-      "uuid": "90b52869-dffc-3d97-9331-02f4686c2b4f",
-      "alterId": 0,
-      "cipher": "auto",
-      "udp": true,
-      "servername": "support.microsoft.com",
-      "network": "ws",
-      "ws-path": "/microsoft/support",
-      "ws-headers": { "Host": "support.microsoft.com" },
-      "ws-opts":
-        {
-          "path": "/microsoft/support",
-          "headers": { "Host": "support.microsoft.com" },
-        },
-    }
-  - {
-      "name": "你的使用数据完全保密，放心使用。",
-      "type": "vmess",
-      "server": "yana.ink",
-      "port": 20407,
-      "uuid": "90b52869-dffc-3d97-9331-02f4686c2b4f",
-      "alterId": 0,
-      "cipher": "auto",
-      "udp": true,
-      "servername": "support.microsoft.com",
-      "network": "ws",
-      "ws-path": "/microsoft/support",
-      "ws-headers": { "Host": "support.microsoft.com" },
-      "ws-opts":
-        {
-          "path": "/microsoft/support",
-          "headers": { "Host": "support.microsoft.com" },
-        },
-    }
-
-  - {
-      "name": "维护:YYC",
-      "type": "vmess",
-      "server": "yana.ink",
-      "port": 20407,
-      "uuid": "90b52869-dffc-3d97-9331-02f4686c2b4f",
-      "alterId": 0,
-      "cipher": "auto",
-      "udp": true,
-      "servername": "support.microsoft.com",
-      "network": "ws",
-      "ws-path": "/microsoft/support",
-      "ws-headers": { "Host": "support.microsoft.com" },
-      "ws-opts":
-        {
-          "path": "/microsoft/support",
-          "headers": { "Host": "support.microsoft.com" },
-        },
-    }
-
 proxy-groups:
-  - name: 你好,赵曦！
-    type: select
-    proxies:
-      - 维护:YYC
-      - 水印:赵曦
-      - 你的使用数据完全保密，放心使用。
 
-  - name: 代理
+  - name: 代理服务器
     type: select
     proxies:
-      - 🇮🇳-IN-中国-印度- I
-      - 🇨🇳-TW-中国-台湾- I
-      - 🇨🇳-TW-中国-台湾- II
-      - 🇨🇳-TW-中国-台湾- III
-      - 🇨🇳-TW-中国-台湾- IV
-      - 🇩🇪-DE-中国-德国- -
-      - 🇸🇬-SG-中国-新加坡- I
-      - 🇸🇬-SG-中国-新加坡- II
-      - 🇸🇬-SG-中国-新加坡- III
-      - 🇯🇵-JP-中国-日本- I
-      - 🇯🇵-JP-中国-日本- II
-      - 🇯🇵-JP-中国-日本- III
-      - 🇯🇵-JP-中国-日本- IV
-      - 🇻🇮-中国-美属维尔京群岛-美国
-      - 🇺🇸-US-中国-美国- I
-      - 🇺🇸-US-中国-美国- II
-      - 🇺🇸-US-中国-美国- III
-      - 🇺🇸-US-中国-美国- IV
-      - 🇺🇸-US-中国-美国- V
-      - 🇰🇷-KR-中国-韩国
+      - 直连
+      - 🇨🇳-CN-赵曦-中国-印度 I
+      - 🇨🇳-CN-赵曦-中国-台湾 I
+      - 🇨🇳-CN-赵曦-中国-台湾 II
+      - 🇨🇳-CN-赵曦-中国-台湾 III
+      - 🇨🇳-CN-赵曦-中国-台湾 IV
+      - 🇨🇳-CN-赵曦-中国-德国 -DE
+      - 🇨🇳-CN-赵曦-中国-新加坡 I
+      - 🇨🇳-CN-赵曦-中国-新加坡 II
+      - 🇨🇳-CN-赵曦-中国-新加坡 III
+      - 🇨🇳-CN-赵曦-中国-日本 I
+      - 🇨🇳-CN-赵曦-中国-日本 II
+      - 🇨🇳-CN-赵曦-中国-日本 III
+      - 🇨🇳-CN-赵曦-中国-日本 IV
+      - 🇨🇳-CN-赵曦-中国-美国 VI
+      - 🇨🇳-CN-赵曦-中国-美国 I
+      - 🇨🇳-CN-赵曦-中国-美国 II
+      - 🇨🇳-CN-赵曦-中国-美国 III
+      - 🇨🇳-CN-赵曦-中国-美国 IV
+      - 🇨🇳-CN-赵曦-中国-美国 V
+      - 🇨🇳-CN-赵曦-中国-韩国Kr
   - name: 其他
     type: select
     proxies:
-      - 代理
-      - 不使用代理，直接连接。
-      - 拒绝访问
-
-  - name: 不使用代理，直接连接。
+      - 代理服务器
+      - 直连
+      - 禁止访问
+  - name: 直连
     type: select
     proxies:
       - DIRECT
-  - name: 拒绝访问
+  - name: 禁止访问
     type: select
     proxies:
       - REJECT
 rules:
   - DOMAIN-SUFFIX,smtp,DIRECT
   - DOMAIN-KEYWORD,aria2,DIRECT
-  - DOMAIN-SUFFIX,ampproject.org,代理
-  - DOMAIN-SUFFIX,appspot.com,代理
-  - DOMAIN-SUFFIX,blogger.com,代理
-  - DOMAIN-SUFFIX,getoutline.org,代理
-  - DOMAIN-SUFFIX,gvt0.com,代理
-  - DOMAIN-SUFFIX,gvt1.com,代理
-  - DOMAIN-SUFFIX,gvt3.com,代理
-  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,代理
-  - DOMAIN-KEYWORD,google,代理
-  - DOMAIN-KEYWORD,blogspot,代理
-  - DOMAIN-SUFFIX,onedrive.live.com,代理
-  - DOMAIN-SUFFIX,xboxlive.com,代理
-  - DOMAIN-SUFFIX,cdninstagram.com,代理
-  - DOMAIN-SUFFIX,fb.com,代理
-  - DOMAIN-SUFFIX,fb.me,代理
-  - DOMAIN-SUFFIX,fbaddins.com,代理
-  - DOMAIN-SUFFIX,fbcdn.net,代理
-  - DOMAIN-SUFFIX,fbsbx.com,代理
-  - DOMAIN-SUFFIX,fbworkmail.com,代理
-  - DOMAIN-SUFFIX,instagram.com,代理
-  - DOMAIN-SUFFIX,m.me,代理
-  - DOMAIN-SUFFIX,messenger.com,代理
-  - DOMAIN-SUFFIX,oculus.com,代理
-  - DOMAIN-SUFFIX,oculuscdn.com,代理
-  - DOMAIN-SUFFIX,rocksdb.org,代理
-  - DOMAIN-SUFFIX,whatsapp.com,代理
-  - DOMAIN-SUFFIX,whatsapp.net,代理
-  - DOMAIN-KEYWORD,facebook,代理
-  - IP-CIDR,3.123.36.126/32,代理,no-resolve
-  - IP-CIDR,35.157.215.84/32,代理,no-resolve
-  - IP-CIDR,35.157.217.255/32,代理,no-resolve
-  - IP-CIDR,52.58.209.134/32,代理,no-resolve
-  - IP-CIDR,54.93.124.31/32,代理,no-resolve
-  - IP-CIDR,54.162.243.80/32,代理,no-resolve
-  - IP-CIDR,54.173.34.141/32,代理,no-resolve
-  - IP-CIDR,54.235.23.242/32,代理,no-resolve
-  - IP-CIDR,169.45.248.118/32,代理,no-resolve
-  - DOMAIN-SUFFIX,pscp.tv,代理
-  - DOMAIN-SUFFIX,periscope.tv,代理
-  - DOMAIN-SUFFIX,t.co,代理
-  - DOMAIN-SUFFIX,twimg.co,代理
-  - DOMAIN-SUFFIX,twimg.com,代理
-  - DOMAIN-SUFFIX,twitpic.com,代理
-  - DOMAIN-SUFFIX,vine.co,代理
-  - DOMAIN-KEYWORD,twitter,代理
-  - DOMAIN-SUFFIX,t.me,代理
-  - DOMAIN-SUFFIX,tdesktop.com,代理
-  - DOMAIN-SUFFIX,telegra.ph,代理
-  - DOMAIN-SUFFIX,telegram.me,代理
-  - DOMAIN-SUFFIX,telegram.org,代理
-  - IP-CIDR,91.108.4.0/22,代理,no-resolve
-  - IP-CIDR,91.108.8.0/22,代理,no-resolve
-  - IP-CIDR,91.108.12.0/22,代理,no-resolve
-  - IP-CIDR,91.108.16.0/22,代理,no-resolve
-  - IP-CIDR,91.108.56.0/22,代理,no-resolve
-  - IP-CIDR,149.154.160.0/20,代理,no-resolve
-  - IP-CIDR6,2001:b28:f23d::/48,代理,no-resolve
-  - IP-CIDR6,2001:b28:f23f::/48,代理,no-resolve
-  - IP-CIDR6,2001:67c:4e8::/48,代理,no-resolve
-  - DOMAIN-SUFFIX,line.me,代理
-  - DOMAIN-SUFFIX,line-apps.com,代理
-  - DOMAIN-SUFFIX,line-scdn.net,代理
-  - DOMAIN-SUFFIX,naver.jp,代理
-  - IP-CIDR,103.2.30.0/23,代理,no-resolve
-  - IP-CIDR,125.209.208.0/20,代理,no-resolve
-  - IP-CIDR,147.92.128.0/17,代理,no-resolve
-  - IP-CIDR,203.104.144.0/21,代理,no-resolve
-  - DOMAIN-SUFFIX,4shared.com,代理
-  - DOMAIN-SUFFIX,520cc.cc,代理
-  - DOMAIN-SUFFIX,881903.com,代理
-  - DOMAIN-SUFFIX,9cache.com,代理
-  - DOMAIN-SUFFIX,9gag.com,代理
-  - DOMAIN-SUFFIX,abc.com,代理
-  - DOMAIN-SUFFIX,abc.net.au,代理
-  - DOMAIN-SUFFIX,abebooks.com,代理
-  - DOMAIN-SUFFIX,amazon.co.jp,代理
-  - DOMAIN-SUFFIX,apigee.com,代理
-  - DOMAIN-SUFFIX,apk-dl.com,代理
-  - DOMAIN-SUFFIX,apkfind.com,代理
-  - DOMAIN-SUFFIX,apkmirror.com,代理
-  - DOMAIN-SUFFIX,apkmonk.com,代理
-  - DOMAIN-SUFFIX,apkpure.com,代理
-  - DOMAIN-SUFFIX,aptoide.com,代理
-  - DOMAIN-SUFFIX,archive.is,代理
-  - DOMAIN-SUFFIX,archive.org,代理
-  - DOMAIN-SUFFIX,arte.tv,代理
-  - DOMAIN-SUFFIX,artstation.com,代理
-  - DOMAIN-SUFFIX,arukas.io,代理
-  - DOMAIN-SUFFIX,ask.com,代理
-  - DOMAIN-SUFFIX,avg.com,代理
-  - DOMAIN-SUFFIX,avgle.com,代理
-  - DOMAIN-SUFFIX,badoo.com,代理
-  - DOMAIN-SUFFIX,bandwagonhost.com,代理
-  - DOMAIN-SUFFIX,bbc.com,代理
-  - DOMAIN-SUFFIX,behance.net,代理
-  - DOMAIN-SUFFIX,bibox.com,代理
-  - DOMAIN-SUFFIX,biggo.com.tw,代理
-  - DOMAIN-SUFFIX,binance.com,代理
-  - DOMAIN-SUFFIX,bitcointalk.org,代理
-  - DOMAIN-SUFFIX,bitfinex.com,代理
-  - DOMAIN-SUFFIX,bitmex.com,代理
-  - DOMAIN-SUFFIX,bit-z.com,代理
-  - DOMAIN-SUFFIX,bloglovin.com,代理
-  - DOMAIN-SUFFIX,bloomberg.cn,代理
-  - DOMAIN-SUFFIX,bloomberg.com,代理
-  - DOMAIN-SUFFIX,blubrry.com,代理
-  - DOMAIN-SUFFIX,book.com.tw,代理
-  - DOMAIN-SUFFIX,booklive.jp,代理
-  - DOMAIN-SUFFIX,books.com.tw,代理
-  - DOMAIN-SUFFIX,boslife.net,代理
-  - DOMAIN-SUFFIX,box.com,代理
-  - DOMAIN-SUFFIX,businessinsider.com,代理
-  - DOMAIN-SUFFIX,bwh1.net,代理
-  - DOMAIN-SUFFIX,castbox.fm,代理
-  - DOMAIN-SUFFIX,cbc.ca,代理
-  - DOMAIN-SUFFIX,cdw.com,代理
-  - DOMAIN-SUFFIX,change.org,代理
-  - DOMAIN-SUFFIX,channelnewsasia.com,代理
-  - DOMAIN-SUFFIX,ck101.com,代理
-  - DOMAIN-SUFFIX,clarionproject.org,代理
-  - DOMAIN-SUFFIX,clyp.it,代理
-  - DOMAIN-SUFFIX,cna.com.tw,代理
-  - DOMAIN-SUFFIX,comparitech.com,代理
-  - DOMAIN-SUFFIX,conoha.jp,代理
-  - DOMAIN-SUFFIX,crucial.com,代理
-  - DOMAIN-SUFFIX,cts.com.tw,代理
-  - DOMAIN-SUFFIX,cw.com.tw,代理
-  - DOMAIN-SUFFIX,cyberctm.com,代理
-  - DOMAIN-SUFFIX,dailymotion.com,代理
-  - DOMAIN-SUFFIX,dailyview.tw,代理
-  - DOMAIN-SUFFIX,daum.net,代理
-  - DOMAIN-SUFFIX,daumcdn.net,代理
-  - DOMAIN-SUFFIX,dcard.tw,代理
-  - DOMAIN-SUFFIX,deepdiscount.com,代理
-  - DOMAIN-SUFFIX,depositphotos.com,代理
-  - DOMAIN-SUFFIX,deviantart.com,代理
-  - DOMAIN-SUFFIX,disconnect.me,代理
-  - DOMAIN-SUFFIX,discordapp.com,代理
-  - DOMAIN-SUFFIX,discordapp.net,代理
-  - DOMAIN-SUFFIX,disqus.com,代理
-  - DOMAIN-SUFFIX,dlercloud.com,代理
-  - DOMAIN-SUFFIX,dns2go.com,代理
-  - DOMAIN-SUFFIX,dowjones.com,代理
-  - DOMAIN-SUFFIX,dropbox.com,代理
-  - DOMAIN-SUFFIX,dropboxusercontent.com,代理
-  - DOMAIN-SUFFIX,duckduckgo.com,代理
-  - DOMAIN-SUFFIX,dw.com,代理
-  - DOMAIN-SUFFIX,dynu.com,代理
-  - DOMAIN-SUFFIX,earthcam.com,代理
-  - DOMAIN-SUFFIX,ebookservice.tw,代理
-  - DOMAIN-SUFFIX,economist.com,代理
-  - DOMAIN-SUFFIX,edgecastcdn.net,代理
-  - DOMAIN-SUFFIX,edu,代理
-  - DOMAIN-SUFFIX,elpais.com,代理
-  - DOMAIN-SUFFIX,enanyang.my,代理
-  - DOMAIN-SUFFIX,encyclopedia.com,代理
-  - DOMAIN-SUFFIX,esoir.be,代理
-  - DOMAIN-SUFFIX,etherscan.io,代理
-  - DOMAIN-SUFFIX,euronews.com,代理
-  - DOMAIN-SUFFIX,evozi.com,代理
-  - DOMAIN-SUFFIX,feedly.com,代理
-  - DOMAIN-SUFFIX,firech.at,代理
-  - DOMAIN-SUFFIX,flickr.com,代理
-  - DOMAIN-SUFFIX,flitto.com,代理
-  - DOMAIN-SUFFIX,foreignpolicy.com,代理
-  - DOMAIN-SUFFIX,freebrowser.org,代理
-  - DOMAIN-SUFFIX,freewechat.com,代理
-  - DOMAIN-SUFFIX,freeweibo.com,代理
-  - DOMAIN-SUFFIX,friday.tw,代理
-  - DOMAIN-SUFFIX,ftchinese.com,代理
-  - DOMAIN-SUFFIX,ftimg.net,代理
-  - DOMAIN-SUFFIX,gate.io,代理
-  - DOMAIN-SUFFIX,getlantern.org,代理
-  - DOMAIN-SUFFIX,getsync.com,代理
-  - DOMAIN-SUFFIX,globalvoices.org,代理
-  - DOMAIN-SUFFIX,goo.ne.jp,代理
-  - DOMAIN-SUFFIX,goodreads.com,代理
-  - DOMAIN-SUFFIX,gov,代理
-  - DOMAIN-SUFFIX,gov.tw,代理
-  - DOMAIN-SUFFIX,greatfire.org,代理
-  - DOMAIN-SUFFIX,gumroad.com,代理
-  - DOMAIN-SUFFIX,hbg.com,代理
-  - DOMAIN-SUFFIX,heroku.com,代理
-  - DOMAIN-SUFFIX,hightail.com,代理
-  - DOMAIN-SUFFIX,hk01.com,代理
-  - DOMAIN-SUFFIX,hkbf.org,代理
-  - DOMAIN-SUFFIX,hkbookcity.com,代理
-  - DOMAIN-SUFFIX,hkej.com,代理
-  - DOMAIN-SUFFIX,hket.com,代理
-  - DOMAIN-SUFFIX,hkgolden.com,代理
-  - DOMAIN-SUFFIX,hootsuite.com,代理
-  - DOMAIN-SUFFIX,hudson.org,代理
-  - DOMAIN-SUFFIX,hyread.com.tw,代理
-  - DOMAIN-SUFFIX,ibtimes.com,代理
-  - DOMAIN-SUFFIX,i-cable.com,代理
-  - DOMAIN-SUFFIX,icij.org,代理
-  - DOMAIN-SUFFIX,icoco.com,代理
-  - DOMAIN-SUFFIX,imgur.com,代理
-  - DOMAIN-SUFFIX,initiummall.com,代理
-  - DOMAIN-SUFFIX,insecam.org,代理
-  - DOMAIN-SUFFIX,ipfs.io,代理
-  - DOMAIN-SUFFIX,issuu.com,代理
-  - DOMAIN-SUFFIX,istockphoto.com,代理
-  - DOMAIN-SUFFIX,japantimes.co.jp,代理
-  - DOMAIN-SUFFIX,jiji.com,代理
-  - DOMAIN-SUFFIX,jinx.com,代理
-  - DOMAIN-SUFFIX,jkforum.net,代理
-  - DOMAIN-SUFFIX,joinmastodon.org,代理
-  - DOMAIN-SUFFIX,justmysocks.net,代理
-  - DOMAIN-SUFFIX,justpaste.it,代理
-  - DOMAIN-SUFFIX,kakao.com,代理
-  - DOMAIN-SUFFIX,kakaocorp.com,代理
-  - DOMAIN-SUFFIX,kik.com,代理
-  - DOMAIN-SUFFIX,kobo.com,代理
-  - DOMAIN-SUFFIX,kobobooks.com,代理
-  - DOMAIN-SUFFIX,kodingen.com,代理
-  - DOMAIN-SUFFIX,lemonde.fr,代理
-  - DOMAIN-SUFFIX,lepoint.fr,代理
-  - DOMAIN-SUFFIX,lihkg.com,代理
-  - DOMAIN-SUFFIX,listennotes.com,代理
-  - DOMAIN-SUFFIX,livestream.com,代理
-  - DOMAIN-SUFFIX,logmein.com,代理
-  - DOMAIN-SUFFIX,mail.ru,代理
-  - DOMAIN-SUFFIX,mailchimp.com,代理
-  - DOMAIN-SUFFIX,marc.info,代理
-  - DOMAIN-SUFFIX,matters.news,代理
-  - DOMAIN-SUFFIX,maying.co,代理
-  - DOMAIN-SUFFIX,medium.com,代理
-  - DOMAIN-SUFFIX,mega.nz,代理
-  - DOMAIN-SUFFIX,mil,代理
-  - DOMAIN-SUFFIX,mingpao.com,代理
-  - DOMAIN-SUFFIX,mobile01.com,代理
-  - DOMAIN-SUFFIX,myspace.com,代理
-  - DOMAIN-SUFFIX,myspacecdn.com,代理
-  - DOMAIN-SUFFIX,nanyang.com,代理
-  - DOMAIN-SUFFIX,naver.com,代理
-  - DOMAIN-SUFFIX,neowin.net,代理
-  - DOMAIN-SUFFIX,newstapa.org,代理
-  - DOMAIN-SUFFIX,nexitally.com,代理
-  - DOMAIN-SUFFIX,nhk.or.jp,代理
-  - DOMAIN-SUFFIX,nicovideo.jp,代理
-  - DOMAIN-SUFFIX,nii.ac.jp,代理
-  - DOMAIN-SUFFIX,nikkei.com,代理
-  - DOMAIN-SUFFIX,nofile.io,代理
-  - DOMAIN-SUFFIX,now.com,代理
-  - DOMAIN-SUFFIX,nrk.no,代理
-  - DOMAIN-SUFFIX,nyt.com,代理
-  - DOMAIN-SUFFIX,nytchina.com,代理
-  - DOMAIN-SUFFIX,nytcn.me,代理
-  - DOMAIN-SUFFIX,nytco.com,代理
-  - DOMAIN-SUFFIX,nytimes.com,代理
-  - DOMAIN-SUFFIX,nytimg.com,代理
-  - DOMAIN-SUFFIX,nytlog.com,代理
-  - DOMAIN-SUFFIX,nytstyle.com,代理
-  - DOMAIN-SUFFIX,ok.ru,代理
-  - DOMAIN-SUFFIX,okex.com,代理
-  - DOMAIN-SUFFIX,on.cc,代理
-  - DOMAIN-SUFFIX,orientaldaily.com.my,代理
-  - DOMAIN-SUFFIX,overcast.fm,代理
-  - DOMAIN-SUFFIX,paltalk.com,代理
-  - DOMAIN-SUFFIX,pao-pao.net,代理
-  - DOMAIN-SUFFIX,parsevideo.com,代理
-  - DOMAIN-SUFFIX,pbxes.com,代理
-  - DOMAIN-SUFFIX,pcdvd.com.tw,代理
-  - DOMAIN-SUFFIX,pchome.com.tw,代理
-  - DOMAIN-SUFFIX,pcloud.com,代理
-  - DOMAIN-SUFFIX,picacomic.com,代理
-  - DOMAIN-SUFFIX,pinimg.com,代理
-  - DOMAIN-SUFFIX,pixiv.net,代理
-  - DOMAIN-SUFFIX,player.fm,代理
-  - DOMAIN-SUFFIX,plurk.com,代理
-  - DOMAIN-SUFFIX,po18.tw,代理
-  - DOMAIN-SUFFIX,potato.im,代理
-  - DOMAIN-SUFFIX,potatso.com,代理
-  - DOMAIN-SUFFIX,prism-break.org,代理
-  - DOMAIN-SUFFIX,proxifier.com,代理
-  - DOMAIN-SUFFIX,pt.im,代理
-  - DOMAIN-SUFFIX,pts.org.tw,代理
-  - DOMAIN-SUFFIX,pubu.com.tw,代理
-  - DOMAIN-SUFFIX,pubu.tw,代理
-  - DOMAIN-SUFFIX,pureapk.com,代理
-  - DOMAIN-SUFFIX,quora.com,代理
-  - DOMAIN-SUFFIX,quoracdn.net,代理
-  - DOMAIN-SUFFIX,rakuten.co.jp,代理
-  - DOMAIN-SUFFIX,readingtimes.com.tw,代理
-  - DOMAIN-SUFFIX,readmoo.com,代理
-  - DOMAIN-SUFFIX,redbubble.com,代理
-  - DOMAIN-SUFFIX,reddit.com,代理
-  - DOMAIN-SUFFIX,redditmedia.com,代理
-  - DOMAIN-SUFFIX,resilio.com,代理
-  - DOMAIN-SUFFIX,reuters.com,代理
-  - DOMAIN-SUFFIX,reutersmedia.net,代理
-  - DOMAIN-SUFFIX,rfi.fr,代理
-  - DOMAIN-SUFFIX,rixcloud.com,代理
-  - DOMAIN-SUFFIX,roadshow.hk,代理
-  - DOMAIN-SUFFIX,scmp.com,代理
-  - DOMAIN-SUFFIX,scribd.com,代理
-  - DOMAIN-SUFFIX,seatguru.com,代理
-  - DOMAIN-SUFFIX,shadowsocks.org,代理
-  - DOMAIN-SUFFIX,shopee.tw,代理
-  - DOMAIN-SUFFIX,slideshare.net,代理
-  - DOMAIN-SUFFIX,softfamous.com,代理
-  - DOMAIN-SUFFIX,soundcloud.com,代理
-  - DOMAIN-SUFFIX,ssrcloud.org,代理
-  - DOMAIN-SUFFIX,startpage.com,代理
-  - DOMAIN-SUFFIX,steamcommunity.com,代理
-  - DOMAIN-SUFFIX,steemit.com,代理
-  - DOMAIN-SUFFIX,steemitwallet.com,代理
-  - DOMAIN-SUFFIX,t66y.com,代理
-  - DOMAIN-SUFFIX,tapatalk.com,代理
-  - DOMAIN-SUFFIX,teco-hk.org,代理
-  - DOMAIN-SUFFIX,teco-mo.org,代理
-  - DOMAIN-SUFFIX,teddysun.com,代理
-  - DOMAIN-SUFFIX,textnow.me,代理
-  - DOMAIN-SUFFIX,theguardian.com,代理
-  - DOMAIN-SUFFIX,theinitium.com,代理
-  - DOMAIN-SUFFIX,thetvdb.com,代理
-  - DOMAIN-SUFFIX,tineye.com,代理
-  - DOMAIN-SUFFIX,torproject.org,代理
-  - DOMAIN-SUFFIX,tumblr.com,代理
-  - DOMAIN-SUFFIX,turbobit.net,代理
-  - DOMAIN-SUFFIX,tutanota.com,代理
-  - DOMAIN-SUFFIX,tvboxnow.com,代理
-  - DOMAIN-SUFFIX,udn.com,代理
-  - DOMAIN-SUFFIX,unseen.is,代理
-  - DOMAIN-SUFFIX,upmedia.mg,代理
-  - DOMAIN-SUFFIX,uptodown.com,代理
-  - DOMAIN-SUFFIX,urbandictionary.com,代理
-  - DOMAIN-SUFFIX,ustream.tv,代理
-  - DOMAIN-SUFFIX,uwants.com,代理
-  - DOMAIN-SUFFIX,v2ray.com,代理
-  - DOMAIN-SUFFIX,viber.com,代理
-  - DOMAIN-SUFFIX,videopress.com,代理
-  - DOMAIN-SUFFIX,vimeo.com,代理
-  - DOMAIN-SUFFIX,voachinese.com,代理
-  - DOMAIN-SUFFIX,voanews.com,代理
-  - DOMAIN-SUFFIX,voxer.com,代理
-  - DOMAIN-SUFFIX,vzw.com,代理
-  - DOMAIN-SUFFIX,w3schools.com,代理
-  - DOMAIN-SUFFIX,washingtonpost.com,代理
-  - DOMAIN-SUFFIX,wattpad.com,代理
-  - DOMAIN-SUFFIX,whoer.net,代理
-  - DOMAIN-SUFFIX,wikimapia.org,代理
-  - DOMAIN-SUFFIX,wikipedia.org,代理
-  - DOMAIN-SUFFIX,wikiquote.org,代理
-  - DOMAIN-SUFFIX,wikiwand.com,代理
-  - DOMAIN-SUFFIX,winudf.com,代理
-  - DOMAIN-SUFFIX,wire.com,代理
-  - DOMAIN-SUFFIX,wordpress.com,代理
-  - DOMAIN-SUFFIX,workflow.is,代理
-  - DOMAIN-SUFFIX,worldcat.org,代理
-  - DOMAIN-SUFFIX,wsj.com,代理
-  - DOMAIN-SUFFIX,wsj.net,代理
-  - DOMAIN-SUFFIX,xhamster.com,代理
-  - DOMAIN-SUFFIX,xn--90wwvt03e.com,代理
-  - DOMAIN-SUFFIX,xn--i2ru8q2qg.com,代理
-  - DOMAIN-SUFFIX,xnxx.com,代理
-  - DOMAIN-SUFFIX,xvideos.com,代理
-  - DOMAIN-SUFFIX,yahoo.com,代理
-  - DOMAIN-SUFFIX,yandex.ru,代理
-  - DOMAIN-SUFFIX,ycombinator.com,代理
-  - DOMAIN-SUFFIX,yesasia.com,代理
-  - DOMAIN-SUFFIX,yes-news.com,代理
-  - DOMAIN-SUFFIX,yomiuri.co.jp,代理
-  - DOMAIN-SUFFIX,you-get.org,代理
-  - DOMAIN-SUFFIX,zaobao.com,代理
-  - DOMAIN-SUFFIX,zb.com,代理
-  - DOMAIN-SUFFIX,zello.com,代理
-  - DOMAIN-SUFFIX,zeronet.io,代理
-  - DOMAIN-SUFFIX,zoom.us,代理
-  - DOMAIN-KEYWORD,github,代理
-  - DOMAIN-KEYWORD,jav,代理
-  - DOMAIN-KEYWORD,pinterest,代理
-  - DOMAIN-KEYWORD,porn,代理
-  - DOMAIN-KEYWORD,wikileaks,代理
-  - DOMAIN-SUFFIX,apartmentratings.com,代理
-  - DOMAIN-SUFFIX,apartments.com,代理
-  - DOMAIN-SUFFIX,bankmobilevibe.com,代理
-  - DOMAIN-SUFFIX,bing.com,代理
-  - DOMAIN-SUFFIX,booktopia.com.au,代理
-  - DOMAIN-SUFFIX,cccat.io,代理
-  - DOMAIN-SUFFIX,centauro.com.br,代理
-  - DOMAIN-SUFFIX,clearsurance.com,代理
-  - DOMAIN-SUFFIX,costco.com,代理
-  - DOMAIN-SUFFIX,crackle.com,代理
-  - DOMAIN-SUFFIX,depositphotos.cn,代理
-  - DOMAIN-SUFFIX,dish.com,代理
-  - DOMAIN-SUFFIX,dmm.co.jp,代理
-  - DOMAIN-SUFFIX,dmm.com,代理
-  - DOMAIN-SUFFIX,dnvod.tv,代理
-  - DOMAIN-SUFFIX,esurance.com,代理
-  - DOMAIN-SUFFIX,extmatrix.com,代理
-  - DOMAIN-SUFFIX,fastpic.ru,代理
-  - DOMAIN-SUFFIX,flipboard.com,代理
-  - DOMAIN-SUFFIX,fnac.be,代理
-  - DOMAIN-SUFFIX,fnac.com,代理
-  - DOMAIN-SUFFIX,funkyimg.com,代理
-  - DOMAIN-SUFFIX,fxnetworks.com,代理
-  - DOMAIN-SUFFIX,gettyimages.com,代理
-  - DOMAIN-SUFFIX,go.com,代理
-  - DOMAIN-SUFFIX,here.com,代理
-  - DOMAIN-SUFFIX,jcpenney.com,代理
-  - DOMAIN-SUFFIX,jiehua.tv,代理
-  - DOMAIN-SUFFIX,mailfence.com,代理
-  - DOMAIN-SUFFIX,nationwide.com,代理
-  - DOMAIN-SUFFIX,nbc.com,代理
-  - DOMAIN-SUFFIX,nexon.com,代理
-  - DOMAIN-SUFFIX,nordstrom.com,代理
-  - DOMAIN-SUFFIX,nordstromimage.com,代理
-  - DOMAIN-SUFFIX,nordstromrack.com,代理
-  - DOMAIN-SUFFIX,superpages.com,代理
-  - DOMAIN-SUFFIX,target.com,代理
-  - DOMAIN-SUFFIX,thinkgeek.com,代理
-  - DOMAIN-SUFFIX,tracfone.com,代理
-  - DOMAIN-SUFFIX,unity3d.com,代理
-  - DOMAIN-SUFFIX,uploader.jp,代理
-  - DOMAIN-SUFFIX,vevo.com,代理
-  - DOMAIN-SUFFIX,viu.tv,代理
-  - DOMAIN-SUFFIX,vk.com,代理
-  - DOMAIN-SUFFIX,vsco.co,代理
-  - DOMAIN-SUFFIX,xfinity.com,代理
-  - DOMAIN-SUFFIX,zattoo.com,代理
-  - DOMAIN,testflight.apple.com,代理
-  - DOMAIN-SUFFIX,appsto.re,代理
-  - DOMAIN,books.itunes.apple.com,代理
-  - DOMAIN,hls.itunes.apple.com,代理
-  - DOMAIN,apps.apple.com,代理
-  - DOMAIN,itunes.apple.com,代理
-  - DOMAIN,api-glb-sea.smoot.apple.com,代理
-  - DOMAIN,lookup-api.apple.com,代理
-  - DOMAIN-SUFFIX,abc.xyz,代理
-  - DOMAIN-SUFFIX,android.com,代理
-  - DOMAIN-SUFFIX,androidify.com,代理
-  - DOMAIN-SUFFIX,dialogflow.com,代理
-  - DOMAIN-SUFFIX,autodraw.com,代理
-  - DOMAIN-SUFFIX,capitalg.com,代理
-  - DOMAIN-SUFFIX,certificate-transparency.org,代理
-  - DOMAIN-SUFFIX,chrome.com,代理
-  - DOMAIN-SUFFIX,chromeexperiments.com,代理
-  - DOMAIN-SUFFIX,chromestatus.com,代理
-  - DOMAIN-SUFFIX,chromium.org,代理
-  - DOMAIN-SUFFIX,creativelab5.com,代理
-  - DOMAIN-SUFFIX,debug.com,代理
-  - DOMAIN-SUFFIX,deepmind.com,代理
-  - DOMAIN-SUFFIX,firebaseio.com,代理
-  - DOMAIN-SUFFIX,getmdl.io,代理
-  - DOMAIN-SUFFIX,ggpht.com,代理
-  - DOMAIN-SUFFIX,gmail.com,代理
-  - DOMAIN-SUFFIX,gmodules.com,代理
-  - DOMAIN-SUFFIX,godoc.org,代理
-  - DOMAIN-SUFFIX,golang.org,代理
-  - DOMAIN-SUFFIX,gstatic.com,代理
-  - DOMAIN-SUFFIX,gv.com,代理
-  - DOMAIN-SUFFIX,gwtproject.org,代理
-  - DOMAIN-SUFFIX,itasoftware.com,代理
-  - DOMAIN-SUFFIX,madewithcode.com,代理
-  - DOMAIN-SUFFIX,material.io,代理
-  - DOMAIN-SUFFIX,polymer-project.org,代理
-  - DOMAIN-SUFFIX,admin.recaptcha.net,代理
-  - DOMAIN-SUFFIX,recaptcha.net,代理
-  - DOMAIN-SUFFIX,shattered.io,代理
-  - DOMAIN-SUFFIX,synergyse.com,代理
-  - DOMAIN-SUFFIX,tensorflow.org,代理
-  - DOMAIN-SUFFIX,tfhub.dev,代理
-  - DOMAIN-SUFFIX,tiltbrush.com,代理
-  - DOMAIN-SUFFIX,waveprotocol.org,代理
-  - DOMAIN-SUFFIX,waymo.com,代理
-  - DOMAIN-SUFFIX,webmproject.org,代理
-  - DOMAIN-SUFFIX,webrtc.org,代理
-  - DOMAIN-SUFFIX,whatbrowser.org,代理
-  - DOMAIN-SUFFIX,widevine.com,代理
-  - DOMAIN-SUFFIX,x.company,代理
-  - DOMAIN-SUFFIX,youtu.be,代理
-  - DOMAIN-SUFFIX,yt.be,代理
-  - DOMAIN-SUFFIX,ytimg.com,代理
-  - DOMAIN-SUFFIX,1drv.com,代理
-  - DOMAIN-SUFFIX,1drv.ms,代理
-  - DOMAIN-SUFFIX,blob.core.windows.net,代理
-  - DOMAIN-SUFFIX,livefilestore.com,代理
-  - DOMAIN-SUFFIX,onedrive.com,代理
-  - DOMAIN-SUFFIX,storage.live.com,代理
-  - DOMAIN-SUFFIX,storage.msn.com,代理
-  - DOMAIN,oneclient.sfx.ms,代理
-  - DOMAIN-SUFFIX,0rz.tw,代理
-  - DOMAIN-SUFFIX,4bluestones.biz,代理
-  - DOMAIN-SUFFIX,9bis.net,代理
-  - DOMAIN-SUFFIX,allconnected.co,代理
-  - DOMAIN-SUFFIX,aol.com,代理
-  - DOMAIN-SUFFIX,bcc.com.tw,代理
-  - DOMAIN-SUFFIX,bit.ly,代理
-  - DOMAIN-SUFFIX,bitshare.com,代理
-  - DOMAIN-SUFFIX,blog.jp,代理
-  - DOMAIN-SUFFIX,blogimg.jp,代理
-  - DOMAIN-SUFFIX,blogtd.org,代理
-  - DOMAIN-SUFFIX,broadcast.co.nz,代理
-  - DOMAIN-SUFFIX,camfrog.com,代理
-  - DOMAIN-SUFFIX,cfos.de,代理
-  - DOMAIN-SUFFIX,citypopulation.de,代理
-  - DOMAIN-SUFFIX,cloudfront.net,代理
-  - DOMAIN-SUFFIX,ctitv.com.tw,代理
-  - DOMAIN-SUFFIX,cuhk.edu.hk,代理
-  - DOMAIN-SUFFIX,cusu.hk,代理
-  - DOMAIN-SUFFIX,discord.gg,代理
-  - DOMAIN-SUFFIX,discuss.com.hk,代理
-  - DOMAIN-SUFFIX,dropboxapi.com,代理
-  - DOMAIN-SUFFIX,duolingo.cn,代理
-  - DOMAIN-SUFFIX,edditstatic.com,代理
-  - DOMAIN-SUFFIX,flickriver.com,代理
-  - DOMAIN-SUFFIX,focustaiwan.tw,代理
-  - DOMAIN-SUFFIX,free.fr,代理
-  - DOMAIN-SUFFIX,gigacircle.com,代理
-  - DOMAIN-SUFFIX,hk-pub.com,代理
-  - DOMAIN-SUFFIX,hosting.co.uk,代理
-  - DOMAIN-SUFFIX,hwcdn.net,代理
-  - DOMAIN-SUFFIX,ifixit.com,代理
-  - DOMAIN-SUFFIX,iphone4hongkong.com,代理
-  - DOMAIN-SUFFIX,iphonetaiwan.org,代理
-  - DOMAIN-SUFFIX,iptvbin.com,代理
-  - DOMAIN-SUFFIX,linksalpha.com,代理
-  - DOMAIN-SUFFIX,manyvids.com,代理
-  - DOMAIN-SUFFIX,myactimes.com,代理
-  - DOMAIN-SUFFIX,newsblur.com,代理
-  - DOMAIN-SUFFIX,now.im,代理
-  - DOMAIN-SUFFIX,nowe.com,代理
-  - DOMAIN-SUFFIX,redditlist.com,代理
-  - DOMAIN-SUFFIX,s3.amazonaws.com,代理
-  - DOMAIN-SUFFIX,signal.org,代理
-  - DOMAIN-SUFFIX,smartmailcloud.com,代理
-  - DOMAIN-SUFFIX,sparknotes.com,代理
-  - DOMAIN-SUFFIX,streetvoice.com,代理
-  - DOMAIN-SUFFIX,supertop.co,代理
-  - DOMAIN-SUFFIX,tv.com,代理
-  - DOMAIN-SUFFIX,typepad.com,代理
-  - DOMAIN-SUFFIX,udnbkk.com,代理
-  - DOMAIN-SUFFIX,urbanairship.com,代理
-  - DOMAIN-SUFFIX,whispersystems.org,代理
-  - DOMAIN-SUFFIX,wikia.com,代理
-  - DOMAIN-SUFFIX,wn.com,代理
-  - DOMAIN-SUFFIX,wolframalpha.com,代理
-  - DOMAIN-SUFFIX,x-art.com,代理
-  - DOMAIN-SUFFIX,yimg.com,代理
-  - DOMAIN,api.steampowered.com,代理
-  - DOMAIN,store.steampowered.com,代理
-  - DOMAIN-SUFFIX,aaplimg.com,代理
-  - DOMAIN-SUFFIX,apple.co,代理
-  - DOMAIN-SUFFIX,apple.com,代理
-  - DOMAIN-SUFFIX,apple-cloudkit.com,代理
-  - DOMAIN-SUFFIX,appstore.com,代理
-  - DOMAIN-SUFFIX,cdn-apple.com,代理
-  - DOMAIN-SUFFIX,crashlytics.com,代理
-  - DOMAIN-SUFFIX,icloud.com,代理
-  - DOMAIN-SUFFIX,icloud-content.com,代理
-  - DOMAIN-SUFFIX,me.com,代理
-  - DOMAIN-SUFFIX,mzstatic.com,代理
-  - DOMAIN,www-cdn.icloud.com.akadns.net,代理
-  - DOMAIN-SUFFIX,t.me,代理
-  - DOMAIN-SUFFIX,tdesktop.com,代理
-  - DOMAIN-SUFFIX,telegra.ph,代理
-  - DOMAIN-SUFFIX,telegram.me,代理
-  - DOMAIN-SUFFIX,telegram.org,代理
-  - IP-CIDR,91.108.4.0/22,代理,no-resolve
-  - IP-CIDR,91.108.8.0/22,代理,no-resolve
-  - IP-CIDR,91.108.12.0/22,代理,no-resolve
-  - IP-CIDR,91.108.16.0/22,代理,no-resolve
-  - IP-CIDR,91.108.56.0/22,代理,no-resolve
-  - IP-CIDR,149.154.160.0/20,代理,no-resolve
-  - IP-CIDR6,2001:b28:f23d::/48,代理,no-resolve
-  - IP-CIDR6,2001:b28:f23f::/48,代理,no-resolve
-  - IP-CIDR6,2001:67c:4e8::/48,代理,no-resolve
-  - DOMAIN-SUFFIX,googlevideo.com,代理
-  - DOMAIN-SUFFIX,youtube.com,代理
-  - DOMAIN,youtubei.googleapis.com,代理
-  - DOMAIN-SUFFIX,netflix.com,代理
-  - DOMAIN-SUFFIX,netflix.net,代理
-  - DOMAIN-SUFFIX,nflxext.com,代理
-  - DOMAIN-SUFFIX,nflximg.com,代理
-  - DOMAIN-SUFFIX,nflximg.net,代理
-  - DOMAIN-SUFFIX,nflxso.net,代理
-  - DOMAIN-SUFFIX,nflxvideo.net,代理
-  - DOMAIN-SUFFIX,netflixdnstest0.com,代理
-  - DOMAIN-SUFFIX,netflixdnstest1.com,代理
-  - DOMAIN-SUFFIX,netflixdnstest2.com,代理
-  - DOMAIN-SUFFIX,netflixdnstest3.com,代理
-  - DOMAIN-SUFFIX,netflixdnstest4.com,代理
-  - DOMAIN-SUFFIX,netflixdnstest5.com,代理
-  - DOMAIN-SUFFIX,netflixdnstest6.com,代理
-  - DOMAIN-SUFFIX,netflixdnstest7.com,代理
-  - DOMAIN-SUFFIX,netflixdnstest8.com,代理
-  - DOMAIN-SUFFIX,netflixdnstest9.com,代理
-  - IP-CIDR,23.246.0.0/18,代理,no-resolve
-  - IP-CIDR,37.77.184.0/21,代理,no-resolve
-  - IP-CIDR,45.57.0.0/17,代理,no-resolve
-  - IP-CIDR,64.120.128.0/17,代理,no-resolve
-  - IP-CIDR,66.197.128.0/17,代理,no-resolve
-  - IP-CIDR,108.175.32.0/20,代理,no-resolve
-  - IP-CIDR,192.173.64.0/18,代理,no-resolve
-  - IP-CIDR,198.38.96.0/19,代理,no-resolve
-  - IP-CIDR,198.45.48.0/20,代理,no-resolve
-  - DOMAIN-SUFFIX,deezer.com,代理
-  - DOMAIN-SUFFIX,dzcdn.net,代理
-  - DOMAIN-SUFFIX,kkbox.com,代理
-  - DOMAIN-SUFFIX,kkbox.com.tw,代理
-  - DOMAIN-SUFFIX,kfs.io,代理
-  - DOMAIN-SUFFIX,joox.com,代理
-  - DOMAIN-SUFFIX,pandora.com,代理
-  - DOMAIN-SUFFIX,p-cdn.us,代理
-  - DOMAIN-SUFFIX,sndcdn.com,代理
-  - DOMAIN-SUFFIX,soundcloud.com,代理
-  - DOMAIN-SUFFIX,pscdn.co,代理
-  - DOMAIN-SUFFIX,scdn.co,代理
-  - DOMAIN-SUFFIX,spotify.com,代理
-  - DOMAIN-SUFFIX,spoti.fi,代理
-  - DOMAIN-KEYWORD,spotify.com,代理
-  - DOMAIN-KEYWORD,-spotify-com,代理
-  - DOMAIN-SUFFIX,tidal.com,代理
-  - DOMAIN-SUFFIX,c4assets.com,代理
-  - DOMAIN-SUFFIX,channel4.com,代理
-  - DOMAIN-SUFFIX,abema.io,代理
-  - DOMAIN-SUFFIX,ameba.jp,代理
-  - DOMAIN-SUFFIX,abema.tv,代理
-  - DOMAIN-SUFFIX,hayabusa.io,代理
-  - DOMAIN,abematv.akamaized.net,代理
-  - DOMAIN,ds-linear-abematv.akamaized.net,代理
-  - DOMAIN,ds-vod-abematv.akamaized.net,代理
-  - DOMAIN,linear-abematv.akamaized.net,代理
-  - DOMAIN-SUFFIX,aiv-cdn.net,代理
-  - DOMAIN-SUFFIX,aiv-delivery.net,代理
-  - DOMAIN-SUFFIX,amazonvideo.com,代理
-  - DOMAIN-SUFFIX,primevideo.com,代理
-  - DOMAIN,avodmp4s3ww-a.akamaihd.net,代理
-  - DOMAIN,d25xi40x97liuc.cloudfront.net,代理
-  - DOMAIN,dmqdd6hw24ucf.cloudfront.net,代理
-  - DOMAIN,d22qjgkvxw22r6.cloudfront.net,代理
-  - DOMAIN,d1v5ir2lpwr8os.cloudfront.net,代理
-  - DOMAIN-KEYWORD,avoddashs,代理
-  - DOMAIN-SUFFIX,bahamut.com.tw,代理
-  - DOMAIN-SUFFIX,gamer.com.tw,代理
-  - DOMAIN,gamer-cds.cdn.hinet.net,代理
-  - DOMAIN,gamer2-cds.cdn.hinet.net,代理
-  - DOMAIN-SUFFIX,bbc.co.uk,代理
-  - DOMAIN-SUFFIX,bbci.co.uk,代理
-  - DOMAIN-KEYWORD,bbcfmt,代理
-  - DOMAIN-KEYWORD,uk-live,代理
-  - DOMAIN-SUFFIX,dazn.com,代理
-  - DOMAIN-SUFFIX,dazn-api.com,代理
-  - DOMAIN,d151l6v8er5bdm.cloudfront.net,代理
-  - DOMAIN-KEYWORD,voddazn,代理
-  - DOMAIN-SUFFIX,bamgrid.com,代理
-  - DOMAIN-SUFFIX,disney-plus.net,代理
-  - DOMAIN-SUFFIX,disneyplus.com,代理
-  - DOMAIN-SUFFIX,dssott.com,代理
-  - DOMAIN,cdn.registerdisney.go.com,代理
-  - DOMAIN-SUFFIX,encoretvb.com,代理
-  - DOMAIN,edge.api.brightcove.com,代理
-  - DOMAIN,bcbolt446c5271-a.akamaihd.net,代理
-  - DOMAIN-SUFFIX,fox.com,代理
-  - DOMAIN-SUFFIX,foxdcg.com,代理
-  - DOMAIN-SUFFIX,theplatform.com,代理
-  - DOMAIN-SUFFIX,uplynk.com,代理
-  - DOMAIN-SUFFIX,hbo.com,代理
-  - DOMAIN-SUFFIX,hbogo.com,代理
-  - DOMAIN-SUFFIX,hbonow.com,代理
-  - DOMAIN-SUFFIX,hbogoasia.com,代理
-  - DOMAIN-SUFFIX,hbogoasia.hk,代理
-  - DOMAIN,bcbolthboa-a.akamaihd.net,代理
-  - DOMAIN,players.brightcove.net,代理
-  - DOMAIN,s3-ap-southeast-1.amazonaws.com,代理
-  - DOMAIN,dai3fd1oh325y.cloudfront.net,代理
-  - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,代理
-  - DOMAIN,hboasia1-i.akamaihd.net,代理
-  - DOMAIN,hboasia2-i.akamaihd.net,代理
-  - DOMAIN,hboasia3-i.akamaihd.net,代理
-  - DOMAIN,hboasia4-i.akamaihd.net,代理
-  - DOMAIN,hboasia5-i.akamaihd.net,代理
-  - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,代理
-  - DOMAIN-SUFFIX,5itv.tv,代理
-  - DOMAIN-SUFFIX,ocnttv.com,代理
-  - DOMAIN-SUFFIX,hulu.com,代理
-  - DOMAIN-SUFFIX,huluim.com,代理
-  - DOMAIN-SUFFIX,hulustream.com,代理
-  - DOMAIN-SUFFIX,happyon.jp,代理
-  - DOMAIN-SUFFIX,hulu.jp,代理
-  - DOMAIN-SUFFIX,itv.com,代理
-  - DOMAIN-SUFFIX,itvstatic.com,代理
-  - DOMAIN,itvpnpmobile-a.akamaihd.net,代理
-  - DOMAIN-SUFFIX,kktv.com.tw,代理
-  - DOMAIN-SUFFIX,kktv.me,代理
-  - DOMAIN,kktv-theater.kk.stream,代理
-  - DOMAIN-SUFFIX,linetv.tw,代理
-  - DOMAIN,d3c7rimkq79yfu.cloudfront.net,代理
-  - DOMAIN-SUFFIX,litv.tv,代理
-  - DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,代理
-  - DOMAIN-SUFFIX,channel5.com,代理
-  - DOMAIN-SUFFIX,my5.tv,代理
-  - DOMAIN,d349g9zuie06uo.cloudfront.net,代理
-  - DOMAIN-SUFFIX,mytvsuper.com,代理
-  - DOMAIN-SUFFIX,tvb.com,代理
-  - DOMAIN-SUFFIX,netflix.com,代理
-  - DOMAIN-SUFFIX,netflix.net,代理
-  - DOMAIN-SUFFIX,nflxext.com,代理
-  - DOMAIN-SUFFIX,nflximg.com,代理
-  - DOMAIN-SUFFIX,nflximg.net,代理
-  - DOMAIN-SUFFIX,nflxso.net,代理
-  - DOMAIN-SUFFIX,nflxvideo.net,代理
-  - DOMAIN-SUFFIX,netflixdnstest0.com,代理
-  - DOMAIN-SUFFIX,netflixdnstest1.com,代理
-  - DOMAIN-SUFFIX,netflixdnstest2.com,代理
-  - DOMAIN-SUFFIX,netflixdnstest3.com,代理
-  - DOMAIN-SUFFIX,netflixdnstest4.com,代理
-  - DOMAIN-SUFFIX,netflixdnstest5.com,代理
-  - DOMAIN-SUFFIX,netflixdnstest6.com,代理
-  - DOMAIN-SUFFIX,netflixdnstest7.com,代理
-  - DOMAIN-SUFFIX,netflixdnstest8.com,代理
-  - DOMAIN-SUFFIX,netflixdnstest9.com,代理
-  - IP-CIDR,23.246.0.0/18,代理,no-resolve
-  - IP-CIDR,37.77.184.0/21,代理,no-resolve
-  - IP-CIDR,45.57.0.0/17,代理,no-resolve
-  - IP-CIDR,64.120.128.0/17,代理,no-resolve
-  - IP-CIDR,66.197.128.0/17,代理,no-resolve
-  - IP-CIDR,108.175.32.0/20,代理,no-resolve
-  - IP-CIDR,192.173.64.0/18,代理,no-resolve
-  - IP-CIDR,198.38.96.0/19,代理,no-resolve
-  - IP-CIDR,198.45.48.0/20,代理,no-resolve
-  - DOMAIN-SUFFIX,dmc.nico,代理
-  - DOMAIN-SUFFIX,nicovideo.jp,代理
-  - DOMAIN-SUFFIX,nimg.jp,代理
-  - DOMAIN-SUFFIX,socdm.com,代理
-  - DOMAIN-SUFFIX,pbs.org,代理
-  - DOMAIN-SUFFIX,phncdn.com,代理
-  - DOMAIN-SUFFIX,pornhub.com,代理
-  - DOMAIN-SUFFIX,pornhubpremium.com,代理
-  - DOMAIN-SUFFIX,skyking.com.tw,代理
-  - DOMAIN,hamifans.emome.net,代理
-  - DOMAIN-SUFFIX,twitch.tv,代理
-  - DOMAIN-SUFFIX,twitchcdn.net,代理
-  - DOMAIN-SUFFIX,ttvnw.net,代理
-  - DOMAIN-SUFFIX,jtvnw.net,代理
-  - DOMAIN-SUFFIX,viu.com,代理
-  - DOMAIN-SUFFIX,viu.tv,代理
-  - DOMAIN,api.viu.now.com,代理
-  - DOMAIN,d1k2us671qcoau.cloudfront.net,代理
-  - DOMAIN,d2anahhhmp1ffz.cloudfront.net,代理
-  - DOMAIN,dfp6rglgjqszk.cloudfront.net,代理
-  - DOMAIN-SUFFIX,googlevideo.com,代理
-  - DOMAIN-SUFFIX,youtube.com,代理
-  - DOMAIN,youtubei.googleapis.com,代理
-  - DOMAIN-SUFFIX,biliapi.com,DIRECT
-  - DOMAIN-SUFFIX,biliapi.net,DIRECT
-  - DOMAIN-SUFFIX,bilibili.com,DIRECT
-  - DOMAIN-SUFFIX,bilibili.tv,DIRECT
-  - DOMAIN-SUFFIX,bilivideo.com,DIRECT
+  - DOMAIN-SUFFIX,ampproject.org,代理服务器
+  - DOMAIN-SUFFIX,appspot.com,代理服务器
+  - DOMAIN-SUFFIX,blogger.com,代理服务器
+  - DOMAIN-SUFFIX,getoutline.org,代理服务器
+  - DOMAIN-SUFFIX,gvt0.com,代理服务器
+  - DOMAIN-SUFFIX,gvt1.com,代理服务器
+  - DOMAIN-SUFFIX,gvt3.com,代理服务器
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,代理服务器
+  - DOMAIN-KEYWORD,google,代理服务器
+  - DOMAIN-KEYWORD,blogspot,代理服务器
+  - DOMAIN-SUFFIX,onedrive.live.com,代理服务器
+  - DOMAIN-SUFFIX,xboxlive.com,代理服务器
+  - DOMAIN-SUFFIX,cdninstagram.com,代理服务器
+  - DOMAIN-SUFFIX,fb.com,代理服务器
+  - DOMAIN-SUFFIX,fb.me,代理服务器
+  - DOMAIN-SUFFIX,fbaddins.com,代理服务器
+  - DOMAIN-SUFFIX,fbcdn.net,代理服务器
+  - DOMAIN-SUFFIX,fbsbx.com,代理服务器
+  - DOMAIN-SUFFIX,fbworkmail.com,代理服务器
+  - DOMAIN-SUFFIX,instagram.com,代理服务器
+  - DOMAIN-SUFFIX,m.me,代理服务器
+  - DOMAIN-SUFFIX,messenger.com,代理服务器
+  - DOMAIN-SUFFIX,oculus.com,代理服务器
+  - DOMAIN-SUFFIX,oculuscdn.com,代理服务器
+  - DOMAIN-SUFFIX,rocksdb.org,代理服务器
+  - DOMAIN-SUFFIX,whatsapp.com,代理服务器
+  - DOMAIN-SUFFIX,whatsapp.net,代理服务器
+  - DOMAIN-KEYWORD,facebook,代理服务器
+  - IP-CIDR,3.123.36.126/32,代理服务器,no-resolve
+  - IP-CIDR,35.157.215.84/32,代理服务器,no-resolve
+  - IP-CIDR,35.157.217.255/32,代理服务器,no-resolve
+  - IP-CIDR,52.58.209.134/32,代理服务器,no-resolve
+  - IP-CIDR,54.93.124.31/32,代理服务器,no-resolve
+  - IP-CIDR,54.162.243.80/32,代理服务器,no-resolve
+  - IP-CIDR,54.173.34.141/32,代理服务器,no-resolve
+  - IP-CIDR,54.235.23.242/32,代理服务器,no-resolve
+  - IP-CIDR,169.45.248.118/32,代理服务器,no-resolve
+  - DOMAIN-SUFFIX,pscp.tv,代理服务器
+  - DOMAIN-SUFFIX,periscope.tv,代理服务器
+  - DOMAIN-SUFFIX,t.co,代理服务器
+  - DOMAIN-SUFFIX,twimg.co,代理服务器
+  - DOMAIN-SUFFIX,twimg.com,代理服务器
+  - DOMAIN-SUFFIX,twitpic.com,代理服务器
+  - DOMAIN-SUFFIX,vine.co,代理服务器
+  - DOMAIN-KEYWORD,twitter,代理服务器
+  - DOMAIN-SUFFIX,t.me,代理服务器
+  - DOMAIN-SUFFIX,tdesktop.com,代理服务器
+  - DOMAIN-SUFFIX,telegra.ph,代理服务器
+  - DOMAIN-SUFFIX,telegram.me,代理服务器
+  - DOMAIN-SUFFIX,telegram.org,代理服务器
+  - IP-CIDR,91.108.4.0/22,代理服务器,no-resolve
+  - IP-CIDR,91.108.8.0/22,代理服务器,no-resolve
+  - IP-CIDR,91.108.12.0/22,代理服务器,no-resolve
+  - IP-CIDR,91.108.16.0/22,代理服务器,no-resolve
+  - IP-CIDR,91.108.56.0/22,代理服务器,no-resolve
+  - IP-CIDR,149.154.160.0/20,代理服务器,no-resolve
+  - IP-CIDR6,2001:b28:f23d::/48,代理服务器,no-resolve
+  - IP-CIDR6,2001:b28:f23f::/48,代理服务器,no-resolve
+  - IP-CIDR6,2001:67c:4e8::/48,代理服务器,no-resolve
+  - DOMAIN-SUFFIX,line.me,代理服务器
+  - DOMAIN-SUFFIX,line-apps.com,代理服务器
+  - DOMAIN-SUFFIX,line-scdn.net,代理服务器
+  - DOMAIN-SUFFIX,naver.jp,代理服务器
+  - IP-CIDR,103.2.30.0/23,代理服务器,no-resolve
+  - IP-CIDR,125.209.208.0/20,代理服务器,no-resolve
+  - IP-CIDR,147.92.128.0/17,代理服务器,no-resolve
+  - IP-CIDR,203.104.144.0/21,代理服务器,no-resolve
+  - DOMAIN-SUFFIX,4shared.com,代理服务器
+  - DOMAIN-SUFFIX,520cc.cc,代理服务器
+  - DOMAIN-SUFFIX,881903.com,代理服务器
+  - DOMAIN-SUFFIX,9cache.com,代理服务器
+  - DOMAIN-SUFFIX,9gag.com,代理服务器
+  - DOMAIN-SUFFIX,abc.com,代理服务器
+  - DOMAIN-SUFFIX,abc.net.au,代理服务器
+  - DOMAIN-SUFFIX,abebooks.com,代理服务器
+  - DOMAIN-SUFFIX,amazon.co.jp,代理服务器
+  - DOMAIN-SUFFIX,apigee.com,代理服务器
+  - DOMAIN-SUFFIX,apk-dl.com,代理服务器
+  - DOMAIN-SUFFIX,apkfind.com,代理服务器
+  - DOMAIN-SUFFIX,apkmirror.com,代理服务器
+  - DOMAIN-SUFFIX,apkmonk.com,代理服务器
+  - DOMAIN-SUFFIX,apkpure.com,代理服务器
+  - DOMAIN-SUFFIX,aptoide.com,代理服务器
+  - DOMAIN-SUFFIX,archive.is,代理服务器
+  - DOMAIN-SUFFIX,archive.org,代理服务器
+  - DOMAIN-SUFFIX,arte.tv,代理服务器
+  - DOMAIN-SUFFIX,artstation.com,代理服务器
+  - DOMAIN-SUFFIX,arukas.io,代理服务器
+  - DOMAIN-SUFFIX,ask.com,代理服务器
+  - DOMAIN-SUFFIX,avg.com,代理服务器
+  - DOMAIN-SUFFIX,avgle.com,代理服务器
+  - DOMAIN-SUFFIX,badoo.com,代理服务器
+  - DOMAIN-SUFFIX,bandwagonhost.com,代理服务器
+  - DOMAIN-SUFFIX,bbc.com,代理服务器
+  - DOMAIN-SUFFIX,behance.net,代理服务器
+  - DOMAIN-SUFFIX,bibox.com,代理服务器
+  - DOMAIN-SUFFIX,biggo.com.tw,代理服务器
+  - DOMAIN-SUFFIX,binance.com,代理服务器
+  - DOMAIN-SUFFIX,bitcointalk.org,代理服务器
+  - DOMAIN-SUFFIX,bitfinex.com,代理服务器
+  - DOMAIN-SUFFIX,bitmex.com,代理服务器
+  - DOMAIN-SUFFIX,bit-z.com,代理服务器
+  - DOMAIN-SUFFIX,bloglovin.com,代理服务器
+  - DOMAIN-SUFFIX,bloomberg.CN-赵曦,代理服务器
+  - DOMAIN-SUFFIX,bloomberg.com,代理服务器
+  - DOMAIN-SUFFIX,blubrry.com,代理服务器
+  - DOMAIN-SUFFIX,book.com.tw,代理服务器
+  - DOMAIN-SUFFIX,booklive.jp,代理服务器
+  - DOMAIN-SUFFIX,books.com.tw,代理服务器
+  - DOMAIN-SUFFIX,boslife.net,代理服务器
+  - DOMAIN-SUFFIX,box.com,代理服务器
+  - DOMAIN-SUFFIX,businessinsider.com,代理服务器
+  - DOMAIN-SUFFIX,bwh1.net,代理服务器
+  - DOMAIN-SUFFIX,castbox.fm,代理服务器
+  - DOMAIN-SUFFIX,cbc.ca,代理服务器
+  - DOMAIN-SUFFIX,cdw.com,代理服务器
+  - DOMAIN-SUFFIX,change.org,代理服务器
+  - DOMAIN-SUFFIX,channelnewsasia.com,代理服务器
+  - DOMAIN-SUFFIX,ck101.com,代理服务器
+  - DOMAIN-SUFFIX,clarionproject.org,代理服务器
+  - DOMAIN-SUFFIX,clyp.it,代理服务器
+  - DOMAIN-SUFFIX,CN-赵曦a.com.tw,代理服务器
+  - DOMAIN-SUFFIX,comparitech.com,代理服务器
+  - DOMAIN-SUFFIX,conoha.jp,代理服务器
+  - DOMAIN-SUFFIX,crucial.com,代理服务器
+  - DOMAIN-SUFFIX,cts.com.tw,代理服务器
+  - DOMAIN-SUFFIX,cw.com.tw,代理服务器
+  - DOMAIN-SUFFIX,cyberctm.com,代理服务器
+  - DOMAIN-SUFFIX,dailymotion.com,代理服务器
+  - DOMAIN-SUFFIX,dailyview.tw,代理服务器
+  - DOMAIN-SUFFIX,daum.net,代理服务器
+  - DOMAIN-SUFFIX,daumcdn.net,代理服务器
+  - DOMAIN-SUFFIX,dcard.tw,代理服务器
+  - DOMAIN-SUFFIX,deepdiscount.com,代理服务器
+  - DOMAIN-SUFFIX,depositphotos.com,代理服务器
+  - DOMAIN-SUFFIX,deviantart.com,代理服务器
+  - DOMAIN-SUFFIX,disconnect.me,代理服务器
+  - DOMAIN-SUFFIX,discordapp.com,代理服务器
+  - DOMAIN-SUFFIX,discordapp.net,代理服务器
+  - DOMAIN-SUFFIX,disqus.com,代理服务器
+  - DOMAIN-SUFFIX,dlercloud.com,代理服务器
+  - DOMAIN-SUFFIX,dns2go.com,代理服务器
+  - DOMAIN-SUFFIX,dowjones.com,代理服务器
+  - DOMAIN-SUFFIX,dropbox.com,代理服务器
+  - DOMAIN-SUFFIX,dropboxusercontent.com,代理服务器
+  - DOMAIN-SUFFIX,duckduckgo.com,代理服务器
+  - DOMAIN-SUFFIX,dw.com,代理服务器
+  - DOMAIN-SUFFIX,dynu.com,代理服务器
+  - DOMAIN-SUFFIX,earthcam.com,代理服务器
+  - DOMAIN-SUFFIX,ebookservice.tw,代理服务器
+  - DOMAIN-SUFFIX,economist.com,代理服务器
+  - DOMAIN-SUFFIX,edgecastcdn.net,代理服务器
+  - DOMAIN-SUFFIX,edu,代理服务器
+  - DOMAIN-SUFFIX,elpais.com,代理服务器
+  - DOMAIN-SUFFIX,enanyang.my,代理服务器
+  - DOMAIN-SUFFIX,encyclopedia.com,代理服务器
+  - DOMAIN-SUFFIX,esoir.be,代理服务器
+  - DOMAIN-SUFFIX,etherscan.io,代理服务器
+  - DOMAIN-SUFFIX,euronews.com,代理服务器
+  - DOMAIN-SUFFIX,evozi.com,代理服务器
+  - DOMAIN-SUFFIX,feedly.com,代理服务器
+  - DOMAIN-SUFFIX,firech.at,代理服务器
+  - DOMAIN-SUFFIX,flickr.com,代理服务器
+  - DOMAIN-SUFFIX,flitto.com,代理服务器
+  - DOMAIN-SUFFIX,foreignpolicy.com,代理服务器
+  - DOMAIN-SUFFIX,freebrowser.org,代理服务器
+  - DOMAIN-SUFFIX,freewechat.com,代理服务器
+  - DOMAIN-SUFFIX,freeweibo.com,代理服务器
+  - DOMAIN-SUFFIX,friday.tw,代理服务器
+  - DOMAIN-SUFFIX,ftchinese.com,代理服务器
+  - DOMAIN-SUFFIX,ftimg.net,代理服务器
+  - DOMAIN-SUFFIX,gate.io,代理服务器
+  - DOMAIN-SUFFIX,getlantern.org,代理服务器
+  - DOMAIN-SUFFIX,getsync.com,代理服务器
+  - DOMAIN-SUFFIX,globalvoices.org,代理服务器
+  - DOMAIN-SUFFIX,goo.ne.jp,代理服务器
+  - DOMAIN-SUFFIX,goodreads.com,代理服务器
+  - DOMAIN-SUFFIX,gov,代理服务器
+  - DOMAIN-SUFFIX,gov.tw,代理服务器
+  - DOMAIN-SUFFIX,greatfire.org,代理服务器
+  - DOMAIN-SUFFIX,gumroad.com,代理服务器
+  - DOMAIN-SUFFIX,hbg.com,代理服务器
+  - DOMAIN-SUFFIX,heroku.com,代理服务器
+  - DOMAIN-SUFFIX,hightail.com,代理服务器
+  - DOMAIN-SUFFIX,hk01.com,代理服务器
+  - DOMAIN-SUFFIX,hkbf.org,代理服务器
+  - DOMAIN-SUFFIX,hkbookcity.com,代理服务器
+  - DOMAIN-SUFFIX,hkej.com,代理服务器
+  - DOMAIN-SUFFIX,hket.com,代理服务器
+  - DOMAIN-SUFFIX,hkgolden.com,代理服务器
+  - DOMAIN-SUFFIX,hootsuite.com,代理服务器
+  - DOMAIN-SUFFIX,hudson.org,代理服务器
+  - DOMAIN-SUFFIX,hyread.com.tw,代理服务器
+  - DOMAIN-SUFFIX,ibtimes.com,代理服务器
+  - DOMAIN-SUFFIX,i-cable.com,代理服务器
+  - DOMAIN-SUFFIX,icij.org,代理服务器
+  - DOMAIN-SUFFIX,icoco.com,代理服务器
+  - DOMAIN-SUFFIX,imgur.com,代理服务器
+  - DOMAIN-SUFFIX,initiummall.com,代理服务器
+  - DOMAIN-SUFFIX,insecam.org,代理服务器
+  - DOMAIN-SUFFIX,ipfs.io,代理服务器
+  - DOMAIN-SUFFIX,issuu.com,代理服务器
+  - DOMAIN-SUFFIX,istockphoto.com,代理服务器
+  - DOMAIN-SUFFIX,japantimes.co.jp,代理服务器
+  - DOMAIN-SUFFIX,jiji.com,代理服务器
+  - DOMAIN-SUFFIX,jinx.com,代理服务器
+  - DOMAIN-SUFFIX,jkforum.net,代理服务器
+  - DOMAIN-SUFFIX,joinmastodon.org,代理服务器
+  - DOMAIN-SUFFIX,justmysocks.net,代理服务器
+  - DOMAIN-SUFFIX,justpaste.it,代理服务器
+  - DOMAIN-SUFFIX,kakao.com,代理服务器
+  - DOMAIN-SUFFIX,kakaocorp.com,代理服务器
+  - DOMAIN-SUFFIX,kik.com,代理服务器
+  - DOMAIN-SUFFIX,kobo.com,代理服务器
+  - DOMAIN-SUFFIX,kobobooks.com,代理服务器
+  - DOMAIN-SUFFIX,kodingen.com,代理服务器
+  - DOMAIN-SUFFIX,lemonde.fr,代理服务器
+  - DOMAIN-SUFFIX,lepoint.fr,代理服务器
+  - DOMAIN-SUFFIX,lihkg.com,代理服务器
+  - DOMAIN-SUFFIX,listennotes.com,代理服务器
+  - DOMAIN-SUFFIX,livestream.com,代理服务器
+  - DOMAIN-SUFFIX,logmein.com,代理服务器
+  - DOMAIN-SUFFIX,mail.ru,代理服务器
+  - DOMAIN-SUFFIX,mailchimp.com,代理服务器
+  - DOMAIN-SUFFIX,marc.info,代理服务器
+  - DOMAIN-SUFFIX,matters.news,代理服务器
+  - DOMAIN-SUFFIX,maying.co,代理服务器
+  - DOMAIN-SUFFIX,medium.com,代理服务器
+  - DOMAIN-SUFFIX,mega.nz,代理服务器
+  - DOMAIN-SUFFIX,mil,代理服务器
+  - DOMAIN-SUFFIX,mingpao.com,代理服务器
+  - DOMAIN-SUFFIX,mobile01.com,代理服务器
+  - DOMAIN-SUFFIX,myspace.com,代理服务器
+  - DOMAIN-SUFFIX,myspacecdn.com,代理服务器
+  - DOMAIN-SUFFIX,nanyang.com,代理服务器
+  - DOMAIN-SUFFIX,naver.com,代理服务器
+  - DOMAIN-SUFFIX,neowin.net,代理服务器
+  - DOMAIN-SUFFIX,newstapa.org,代理服务器
+  - DOMAIN-SUFFIX,nexitally.com,代理服务器
+  - DOMAIN-SUFFIX,nhk.or.jp,代理服务器
+  - DOMAIN-SUFFIX,nicovideo.jp,代理服务器
+  - DOMAIN-SUFFIX,nii.ac.jp,代理服务器
+  - DOMAIN-SUFFIX,nikkei.com,代理服务器
+  - DOMAIN-SUFFIX,nofile.io,代理服务器
+  - DOMAIN-SUFFIX,now.com,代理服务器
+  - DOMAIN-SUFFIX,nrk.no,代理服务器
+  - DOMAIN-SUFFIX,nyt.com,代理服务器
+  - DOMAIN-SUFFIX,nytchina.com,代理服务器
+  - DOMAIN-SUFFIX,nytCN-赵曦.me,代理服务器
+  - DOMAIN-SUFFIX,nytco.com,代理服务器
+  - DOMAIN-SUFFIX,nytimes.com,代理服务器
+  - DOMAIN-SUFFIX,nytimg.com,代理服务器
+  - DOMAIN-SUFFIX,nytlog.com,代理服务器
+  - DOMAIN-SUFFIX,nytstyle.com,代理服务器
+  - DOMAIN-SUFFIX,ok.ru,代理服务器
+  - DOMAIN-SUFFIX,okex.com,代理服务器
+  - DOMAIN-SUFFIX,on.cc,代理服务器
+  - DOMAIN-SUFFIX,orientaldaily.com.my,代理服务器
+  - DOMAIN-SUFFIX,overcast.fm,代理服务器
+  - DOMAIN-SUFFIX,paltalk.com,代理服务器
+  - DOMAIN-SUFFIX,pao-pao.net,代理服务器
+  - DOMAIN-SUFFIX,parsevideo.com,代理服务器
+  - DOMAIN-SUFFIX,pbxes.com,代理服务器
+  - DOMAIN-SUFFIX,pcdvd.com.tw,代理服务器
+  - DOMAIN-SUFFIX,pchome.com.tw,代理服务器
+  - DOMAIN-SUFFIX,pcloud.com,代理服务器
+  - DOMAIN-SUFFIX,picacomic.com,代理服务器
+  - DOMAIN-SUFFIX,pinimg.com,代理服务器
+  - DOMAIN-SUFFIX,pixiv.net,代理服务器
+  - DOMAIN-SUFFIX,player.fm,代理服务器
+  - DOMAIN-SUFFIX,plurk.com,代理服务器
+  - DOMAIN-SUFFIX,po18.tw,代理服务器
+  - DOMAIN-SUFFIX,potato.im,代理服务器
+  - DOMAIN-SUFFIX,potatso.com,代理服务器
+  - DOMAIN-SUFFIX,prism-break.org,代理服务器
+  - DOMAIN-SUFFIX,proxifier.com,代理服务器
+  - DOMAIN-SUFFIX,pt.im,代理服务器
+  - DOMAIN-SUFFIX,pts.org.tw,代理服务器
+  - DOMAIN-SUFFIX,pubu.com.tw,代理服务器
+  - DOMAIN-SUFFIX,pubu.tw,代理服务器
+  - DOMAIN-SUFFIX,pureapk.com,代理服务器
+  - DOMAIN-SUFFIX,quora.com,代理服务器
+  - DOMAIN-SUFFIX,quoracdn.net,代理服务器
+  - DOMAIN-SUFFIX,rakuten.co.jp,代理服务器
+  - DOMAIN-SUFFIX,readingtimes.com.tw,代理服务器
+  - DOMAIN-SUFFIX,readmoo.com,代理服务器
+  - DOMAIN-SUFFIX,redbubble.com,代理服务器
+  - DOMAIN-SUFFIX,reddit.com,代理服务器
+  - DOMAIN-SUFFIX,redditmedia.com,代理服务器
+  - DOMAIN-SUFFIX,resilio.com,代理服务器
+  - DOMAIN-SUFFIX,reuters.com,代理服务器
+  - DOMAIN-SUFFIX,reutersmedia.net,代理服务器
+  - DOMAIN-SUFFIX,rfi.fr,代理服务器
+  - DOMAIN-SUFFIX,rixcloud.com,代理服务器
+  - DOMAIN-SUFFIX,roadshow.hk,代理服务器
+  - DOMAIN-SUFFIX,scmp.com,代理服务器
+  - DOMAIN-SUFFIX,scribd.com,代理服务器
+  - DOMAIN-SUFFIX,seatguru.com,代理服务器
+  - DOMAIN-SUFFIX,shadowsocks.org,代理服务器
+  - DOMAIN-SUFFIX,shopee.tw,代理服务器
+  - DOMAIN-SUFFIX,slideshare.net,代理服务器
+  - DOMAIN-SUFFIX,softfamous.com,代理服务器
+  - DOMAIN-SUFFIX,soundcloud.com,代理服务器
+  - DOMAIN-SUFFIX,ssrcloud.org,代理服务器
+  - DOMAIN-SUFFIX,startpage.com,代理服务器
+  - DOMAIN-SUFFIX,steamcommunity.com,代理服务器
+  - DOMAIN-SUFFIX,steemit.com,代理服务器
+  - DOMAIN-SUFFIX,steemitwallet.com,代理服务器
+  - DOMAIN-SUFFIX,t66y.com,代理服务器
+  - DOMAIN-SUFFIX,tapatalk.com,代理服务器
+  - DOMAIN-SUFFIX,teco-hk.org,代理服务器
+  - DOMAIN-SUFFIX,teco-mo.org,代理服务器
+  - DOMAIN-SUFFIX,teddysun.com,代理服务器
+  - DOMAIN-SUFFIX,textnow.me,代理服务器
+  - DOMAIN-SUFFIX,theguardian.com,代理服务器
+  - DOMAIN-SUFFIX,theinitium.com,代理服务器
+  - DOMAIN-SUFFIX,thetvdb.com,代理服务器
+  - DOMAIN-SUFFIX,tineye.com,代理服务器
+  - DOMAIN-SUFFIX,torproject.org,代理服务器
+  - DOMAIN-SUFFIX,tumblr.com,代理服务器
+  - DOMAIN-SUFFIX,turbobit.net,代理服务器
+  - DOMAIN-SUFFIX,tutanota.com,代理服务器
+  - DOMAIN-SUFFIX,tvboxnow.com,代理服务器
+  - DOMAIN-SUFFIX,udn.com,代理服务器
+  - DOMAIN-SUFFIX,unseen.is,代理服务器
+  - DOMAIN-SUFFIX,upmedia.mg,代理服务器
+  - DOMAIN-SUFFIX,uptodown.com,代理服务器
+  - DOMAIN-SUFFIX,urbandictionary.com,代理服务器
+  - DOMAIN-SUFFIX,ustream.tv,代理服务器
+  - DOMAIN-SUFFIX,uwants.com,代理服务器
+  - DOMAIN-SUFFIX,v2ray.com,代理服务器
+  - DOMAIN-SUFFIX,viber.com,代理服务器
+  - DOMAIN-SUFFIX,videopress.com,代理服务器
+  - DOMAIN-SUFFIX,vimeo.com,代理服务器
+  - DOMAIN-SUFFIX,voachinese.com,代理服务器
+  - DOMAIN-SUFFIX,voanews.com,代理服务器
+  - DOMAIN-SUFFIX,voxer.com,代理服务器
+  - DOMAIN-SUFFIX,vzw.com,代理服务器
+  - DOMAIN-SUFFIX,w3schools.com,代理服务器
+  - DOMAIN-SUFFIX,washingtonpost.com,代理服务器
+  - DOMAIN-SUFFIX,wattpad.com,代理服务器
+  - DOMAIN-SUFFIX,whoer.net,代理服务器
+  - DOMAIN-SUFFIX,wikimapia.org,代理服务器
+  - DOMAIN-SUFFIX,wikipedia.org,代理服务器
+  - DOMAIN-SUFFIX,wikiquote.org,代理服务器
+  - DOMAIN-SUFFIX,wikiwand.com,代理服务器
+  - DOMAIN-SUFFIX,winudf.com,代理服务器
+  - DOMAIN-SUFFIX,wire.com,代理服务器
+  - DOMAIN-SUFFIX,wordpress.com,代理服务器
+  - DOMAIN-SUFFIX,workflow.is,代理服务器
+  - DOMAIN-SUFFIX,worldcat.org,代理服务器
+  - DOMAIN-SUFFIX,wsj.com,代理服务器
+  - DOMAIN-SUFFIX,wsj.net,代理服务器
+  - DOMAIN-SUFFIX,xhamster.com,代理服务器
+  - DOMAIN-SUFFIX,xn--90wwvt03e.com,代理服务器
+  - DOMAIN-SUFFIX,xn--i2ru8q2qg.com,代理服务器
+  - DOMAIN-SUFFIX,xnxx.com,代理服务器
+  - DOMAIN-SUFFIX,xvideos.com,代理服务器
+  - DOMAIN-SUFFIX,yahoo.com,代理服务器
+  - DOMAIN-SUFFIX,yandex.ru,代理服务器
+  - DOMAIN-SUFFIX,ycombinator.com,代理服务器
+  - DOMAIN-SUFFIX,yesasia.com,代理服务器
+  - DOMAIN-SUFFIX,yes-news.com,代理服务器
+  - DOMAIN-SUFFIX,yomiuri.co.jp,代理服务器
+  - DOMAIN-SUFFIX,you-get.org,代理服务器
+  - DOMAIN-SUFFIX,zaobao.com,代理服务器
+  - DOMAIN-SUFFIX,zb.com,代理服务器
+  - DOMAIN-SUFFIX,zello.com,代理服务器
+  - DOMAIN-SUFFIX,zeronet.io,代理服务器
+  - DOMAIN-SUFFIX,zoom.us,代理服务器
+  - DOMAIN-KEYWORD,github,代理服务器
+  - DOMAIN-KEYWORD,jav,代理服务器
+  - DOMAIN-KEYWORD,pinterest,代理服务器
+  - DOMAIN-KEYWORD,porn,代理服务器
+  - DOMAIN-KEYWORD,wikileaks,代理服务器
+  - DOMAIN-SUFFIX,apartmentratings.com,代理服务器
+  - DOMAIN-SUFFIX,apartments.com,代理服务器
+  - DOMAIN-SUFFIX,bankmobilevibe.com,代理服务器
+  - DOMAIN-SUFFIX,bing.com,代理服务器
+  - DOMAIN-SUFFIX,booktopia.com.au,代理服务器
+  - DOMAIN-SUFFIX,cccat.io,代理服务器
+  - DOMAIN-SUFFIX,centauro.com.br,代理服务器
+  - DOMAIN-SUFFIX,clearsurance.com,代理服务器
+  - DOMAIN-SUFFIX,costco.com,代理服务器
+  - DOMAIN-SUFFIX,crackle.com,代理服务器
+  - DOMAIN-SUFFIX,depositphotos.CN-赵曦,代理服务器
+  - DOMAIN-SUFFIX,dish.com,代理服务器
+  - DOMAIN-SUFFIX,dmm.co.jp,代理服务器
+  - DOMAIN-SUFFIX,dmm.com,代理服务器
+  - DOMAIN-SUFFIX,dnvod.tv,代理服务器
+  - DOMAIN-SUFFIX,esurance.com,代理服务器
+  - DOMAIN-SUFFIX,extmatrix.com,代理服务器
+  - DOMAIN-SUFFIX,fastpic.ru,代理服务器
+  - DOMAIN-SUFFIX,flipboard.com,代理服务器
+  - DOMAIN-SUFFIX,fnac.be,代理服务器
+  - DOMAIN-SUFFIX,fnac.com,代理服务器
+  - DOMAIN-SUFFIX,funkyimg.com,代理服务器
+  - DOMAIN-SUFFIX,fxnetworks.com,代理服务器
+  - DOMAIN-SUFFIX,gettyimages.com,代理服务器
+  - DOMAIN-SUFFIX,go.com,代理服务器
+  - DOMAIN-SUFFIX,here.com,代理服务器
+  - DOMAIN-SUFFIX,jcpenney.com,代理服务器
+  - DOMAIN-SUFFIX,jiehua.tv,代理服务器
+  - DOMAIN-SUFFIX,mailfence.com,代理服务器
+  - DOMAIN-SUFFIX,nationwide.com,代理服务器
+  - DOMAIN-SUFFIX,nbc.com,代理服务器
+  - DOMAIN-SUFFIX,nexon.com,代理服务器
+  - DOMAIN-SUFFIX,nordstrom.com,代理服务器
+  - DOMAIN-SUFFIX,nordstromimage.com,代理服务器
+  - DOMAIN-SUFFIX,nordstromrack.com,代理服务器
+  - DOMAIN-SUFFIX,superpages.com,代理服务器
+  - DOMAIN-SUFFIX,target.com,代理服务器
+  - DOMAIN-SUFFIX,thinkgeek.com,代理服务器
+  - DOMAIN-SUFFIX,tracfone.com,代理服务器
+  - DOMAIN-SUFFIX,unity3d.com,代理服务器
+  - DOMAIN-SUFFIX,uploader.jp,代理服务器
+  - DOMAIN-SUFFIX,vevo.com,代理服务器
+  - DOMAIN-SUFFIX,viu.tv,代理服务器
+  - DOMAIN-SUFFIX,vk.com,代理服务器
+  - DOMAIN-SUFFIX,vsco.co,代理服务器
+  - DOMAIN-SUFFIX,xfinity.com,代理服务器
+  - DOMAIN-SUFFIX,zattoo.com,代理服务器
+  - DOMAIN,testflight.apple.com,代理服务器
+  - DOMAIN-SUFFIX,appsto.re,代理服务器
+  - DOMAIN,books.itunes.apple.com,代理服务器
+  - DOMAIN,hls.itunes.apple.com,代理服务器
+  - DOMAIN,apps.apple.com,代理服务器
+  - DOMAIN,itunes.apple.com,代理服务器
+  - DOMAIN,api-glb-sea.smoot.apple.com,代理服务器
+  - DOMAIN,lookup-api.apple.com,代理服务器
+  - DOMAIN-SUFFIX,abc.xyz,代理服务器
+  - DOMAIN-SUFFIX,android.com,代理服务器
+  - DOMAIN-SUFFIX,androidify.com,代理服务器
+  - DOMAIN-SUFFIX,dialogflow.com,代理服务器
+  - DOMAIN-SUFFIX,autodraw.com,代理服务器
+  - DOMAIN-SUFFIX,capitalg.com,代理服务器
+  - DOMAIN-SUFFIX,certificate-transparency.org,代理服务器
+  - DOMAIN-SUFFIX,chrome.com,代理服务器
+  - DOMAIN-SUFFIX,chromeexperiments.com,代理服务器
+  - DOMAIN-SUFFIX,chromestatus.com,代理服务器
+  - DOMAIN-SUFFIX,chromium.org,代理服务器
+  - DOMAIN-SUFFIX,creativelab5.com,代理服务器
+  - DOMAIN-SUFFIX,debug.com,代理服务器
+  - DOMAIN-SUFFIX,deepmind.com,代理服务器
+  - DOMAIN-SUFFIX,firebaseio.com,代理服务器
+  - DOMAIN-SUFFIX,getmdl.io,代理服务器
+  - DOMAIN-SUFFIX,ggpht.com,代理服务器
+  - DOMAIN-SUFFIX,gmail.com,代理服务器
+  - DOMAIN-SUFFIX,gmodules.com,代理服务器
+  - DOMAIN-SUFFIX,godoc.org,代理服务器
+  - DOMAIN-SUFFIX,golang.org,代理服务器
+  - DOMAIN-SUFFIX,gstatic.com,代理服务器
+  - DOMAIN-SUFFIX,gv.com,代理服务器
+  - DOMAIN-SUFFIX,gwtproject.org,代理服务器
+  - DOMAIN-SUFFIX,itasoftware.com,代理服务器
+  - DOMAIN-SUFFIX,madewithcode.com,代理服务器
+  - DOMAIN-SUFFIX,material.io,代理服务器
+  - DOMAIN-SUFFIX,polymer-project.org,代理服务器
+  - DOMAIN-SUFFIX,admin.recaptcha.net,代理服务器
+  - DOMAIN-SUFFIX,recaptcha.net,代理服务器
+  - DOMAIN-SUFFIX,shattered.io,代理服务器
+  - DOMAIN-SUFFIX,synergyse.com,代理服务器
+  - DOMAIN-SUFFIX,tensorflow.org,代理服务器
+  - DOMAIN-SUFFIX,tfhub.dev,代理服务器
+  - DOMAIN-SUFFIX,tiltbrush.com,代理服务器
+  - DOMAIN-SUFFIX,waveprotocol.org,代理服务器
+  - DOMAIN-SUFFIX,waymo.com,代理服务器
+  - DOMAIN-SUFFIX,webmproject.org,代理服务器
+  - DOMAIN-SUFFIX,webrtc.org,代理服务器
+  - DOMAIN-SUFFIX,whatbrowser.org,代理服务器
+  - DOMAIN-SUFFIX,widevine.com,代理服务器
+  - DOMAIN-SUFFIX,x.company,代理服务器
+  - DOMAIN-SUFFIX,youtu.be,代理服务器
+  - DOMAIN-SUFFIX,yt.be,代理服务器
+  - DOMAIN-SUFFIX,ytimg.com,代理服务器
+  - DOMAIN-SUFFIX,1drv.com,代理服务器
+  - DOMAIN-SUFFIX,1drv.ms,代理服务器
+  - DOMAIN-SUFFIX,blob.core.windows.net,代理服务器
+  - DOMAIN-SUFFIX,livefilestore.com,代理服务器
+  - DOMAIN-SUFFIX,onedrive.com,代理服务器
+  - DOMAIN-SUFFIX,storage.live.com,代理服务器
+  - DOMAIN-SUFFIX,storage.msn.com,代理服务器
+  - DOMAIN,oneclient.sfx.ms,代理服务器
+  - DOMAIN-SUFFIX,0rz.tw,代理服务器
+  - DOMAIN-SUFFIX,4bluestones.biz,代理服务器
+  - DOMAIN-SUFFIX,9bis.net,代理服务器
+  - DOMAIN-SUFFIX,allconnected.co,代理服务器
+  - DOMAIN-SUFFIX,aol.com,代理服务器
+  - DOMAIN-SUFFIX,bcc.com.tw,代理服务器
+  - DOMAIN-SUFFIX,bit.ly,代理服务器
+  - DOMAIN-SUFFIX,bitshare.com,代理服务器
+  - DOMAIN-SUFFIX,blog.jp,代理服务器
+  - DOMAIN-SUFFIX,blogimg.jp,代理服务器
+  - DOMAIN-SUFFIX,blogtd.org,代理服务器
+  - DOMAIN-SUFFIX,broadcast.co.nz,代理服务器
+  - DOMAIN-SUFFIX,camfrog.com,代理服务器
+  - DOMAIN-SUFFIX,cfos.de,代理服务器
+  - DOMAIN-SUFFIX,citypopulation.de,代理服务器
+  - DOMAIN-SUFFIX,cloudfront.net,代理服务器
+  - DOMAIN-SUFFIX,ctitv.com.tw,代理服务器
+  - DOMAIN-SUFFIX,cuhk.edu.hk,代理服务器
+  - DOMAIN-SUFFIX,cusu.hk,代理服务器
+  - DOMAIN-SUFFIX,discord.gg,代理服务器
+  - DOMAIN-SUFFIX,discuss.com.hk,代理服务器
+  - DOMAIN-SUFFIX,dropboxapi.com,代理服务器
+  - DOMAIN-SUFFIX,duolingo.CN-赵曦,代理服务器
+  - DOMAIN-SUFFIX,edditstatic.com,代理服务器
+  - DOMAIN-SUFFIX,flickriver.com,代理服务器
+  - DOMAIN-SUFFIX,focustaiwan.tw,代理服务器
+  - DOMAIN-SUFFIX,free.fr,代理服务器
+  - DOMAIN-SUFFIX,gigacircle.com,代理服务器
+  - DOMAIN-SUFFIX,hk-pub.com,代理服务器
+  - DOMAIN-SUFFIX,hosting.co.uk,代理服务器
+  - DOMAIN-SUFFIX,hwcdn.net,代理服务器
+  - DOMAIN-SUFFIX,ifixit.com,代理服务器
+  - DOMAIN-SUFFIX,iphone4hongkong.com,代理服务器
+  - DOMAIN-SUFFIX,iphonetaiwan.org,代理服务器
+  - DOMAIN-SUFFIX,iptvbin.com,代理服务器
+  - DOMAIN-SUFFIX,linksalpha.com,代理服务器
+  - DOMAIN-SUFFIX,manyvids.com,代理服务器
+  - DOMAIN-SUFFIX,myactimes.com,代理服务器
+  - DOMAIN-SUFFIX,newsblur.com,代理服务器
+  - DOMAIN-SUFFIX,now.im,代理服务器
+  - DOMAIN-SUFFIX,nowe.com,代理服务器
+  - DOMAIN-SUFFIX,redditlist.com,代理服务器
+  - DOMAIN-SUFFIX,s3.amazonaws.com,代理服务器
+  - DOMAIN-SUFFIX,signal.org,代理服务器
+  - DOMAIN-SUFFIX,smartmailcloud.com,代理服务器
+  - DOMAIN-SUFFIX,sparknotes.com,代理服务器
+  - DOMAIN-SUFFIX,streetvoice.com,代理服务器
+  - DOMAIN-SUFFIX,supertop.co,代理服务器
+  - DOMAIN-SUFFIX,tv.com,代理服务器
+  - DOMAIN-SUFFIX,typepad.com,代理服务器
+  - DOMAIN-SUFFIX,udnbkk.com,代理服务器
+  - DOMAIN-SUFFIX,urbanairship.com,代理服务器
+  - DOMAIN-SUFFIX,whispersystems.org,代理服务器
+  - DOMAIN-SUFFIX,wikia.com,代理服务器
+  - DOMAIN-SUFFIX,wn.com,代理服务器
+  - DOMAIN-SUFFIX,wolframalpha.com,代理服务器
+  - DOMAIN-SUFFIX,x-art.com,代理服务器
+  - DOMAIN-SUFFIX,yimg.com,代理服务器
+  - DOMAIN,api.steampowered.com,代理服务器
+  - DOMAIN,store.steampowered.com,代理服务器
+  - DOMAIN-SUFFIX,aaplimg.com,代理服务器
+  - DOMAIN-SUFFIX,apple.co,代理服务器
+  - DOMAIN-SUFFIX,apple.com,代理服务器
+  - DOMAIN-SUFFIX,apple-cloudkit.com,代理服务器
+  - DOMAIN-SUFFIX,appstore.com,代理服务器
+  - DOMAIN-SUFFIX,cdn-apple.com,代理服务器
+  - DOMAIN-SUFFIX,crashlytics.com,代理服务器
+  - DOMAIN-SUFFIX,icloud.com,代理服务器
+  - DOMAIN-SUFFIX,icloud-content.com,代理服务器
+  - DOMAIN-SUFFIX,me.com,代理服务器
+  - DOMAIN-SUFFIX,mzstatic.com,代理服务器
+  - DOMAIN,www-cdn.icloud.com.akadns.net,代理服务器
+  - DOMAIN-SUFFIX,t.me,代理服务器
+  - DOMAIN-SUFFIX,tdesktop.com,代理服务器
+  - DOMAIN-SUFFIX,telegra.ph,代理服务器
+  - DOMAIN-SUFFIX,telegram.me,代理服务器
+  - DOMAIN-SUFFIX,telegram.org,代理服务器
+  - IP-CIDR,91.108.4.0/22,代理服务器,no-resolve
+  - IP-CIDR,91.108.8.0/22,代理服务器,no-resolve
+  - IP-CIDR,91.108.12.0/22,代理服务器,no-resolve
+  - IP-CIDR,91.108.16.0/22,代理服务器,no-resolve
+  - IP-CIDR,91.108.56.0/22,代理服务器,no-resolve
+  - IP-CIDR,149.154.160.0/20,代理服务器,no-resolve
+  - IP-CIDR6,2001:b28:f23d::/48,代理服务器,no-resolve
+  - IP-CIDR6,2001:b28:f23f::/48,代理服务器,no-resolve
+  - IP-CIDR6,2001:67c:4e8::/48,代理服务器,no-resolve
+  - DOMAIN-SUFFIX,googlevideo.com,代理服务器
+  - DOMAIN-SUFFIX,youtube.com,代理服务器
+  - DOMAIN,youtubei.googleapis.com,代理服务器
+  - DOMAIN-SUFFIX,netflix.com,代理服务器
+  - DOMAIN-SUFFIX,netflix.net,代理服务器
+  - DOMAIN-SUFFIX,nflxext.com,代理服务器
+  - DOMAIN-SUFFIX,nflximg.com,代理服务器
+  - DOMAIN-SUFFIX,nflximg.net,代理服务器
+  - DOMAIN-SUFFIX,nflxso.net,代理服务器
+  - DOMAIN-SUFFIX,nflxvideo.net,代理服务器
+  - DOMAIN-SUFFIX,netflixdnstest0.com,代理服务器
+  - DOMAIN-SUFFIX,netflixdnstest1.com,代理服务器
+  - DOMAIN-SUFFIX,netflixdnstest2.com,代理服务器
+  - DOMAIN-SUFFIX,netflixdnstest3.com,代理服务器
+  - DOMAIN-SUFFIX,netflixdnstest4.com,代理服务器
+  - DOMAIN-SUFFIX,netflixdnstest5.com,代理服务器
+  - DOMAIN-SUFFIX,netflixdnstest6.com,代理服务器
+  - DOMAIN-SUFFIX,netflixdnstest7.com,代理服务器
+  - DOMAIN-SUFFIX,netflixdnstest8.com,代理服务器
+  - DOMAIN-SUFFIX,netflixdnstest9.com,代理服务器
+  - IP-CIDR,23.246.0.0/18,代理服务器,no-resolve
+  - IP-CIDR,37.77.184.0/21,代理服务器,no-resolve
+  - IP-CIDR,45.57.0.0/17,代理服务器,no-resolve
+  - IP-CIDR,64.120.128.0/17,代理服务器,no-resolve
+  - IP-CIDR,66.197.128.0/17,代理服务器,no-resolve
+  - IP-CIDR,108.175.32.0/20,代理服务器,no-resolve
+  - IP-CIDR,192.173.64.0/18,代理服务器,no-resolve
+  - IP-CIDR,198.38.96.0/19,代理服务器,no-resolve
+  - IP-CIDR,198.45.48.0/20,代理服务器,no-resolve
+  - DOMAIN-SUFFIX,deezer.com,代理服务器
+  - DOMAIN-SUFFIX,dzcdn.net,代理服务器
+  - DOMAIN-SUFFIX,kkbox.com,代理服务器
+  - DOMAIN-SUFFIX,kkbox.com.tw,代理服务器
+  - DOMAIN-SUFFIX,kfs.io,代理服务器
+  - DOMAIN-SUFFIX,joox.com,代理服务器
+  - DOMAIN-SUFFIX,pandora.com,代理服务器
+  - DOMAIN-SUFFIX,p-cdn.us,代理服务器
+  - DOMAIN-SUFFIX,sndcdn.com,代理服务器
+  - DOMAIN-SUFFIX,soundcloud.com,代理服务器
+  - DOMAIN-SUFFIX,pscdn.co,代理服务器
+  - DOMAIN-SUFFIX,scdn.co,代理服务器
+  - DOMAIN-SUFFIX,spotify.com,代理服务器
+  - DOMAIN-SUFFIX,spoti.fi,代理服务器
+  - DOMAIN-KEYWORD,spotify.com,代理服务器
+  - DOMAIN-KEYWORD,-spotify-com,代理服务器
+  - DOMAIN-SUFFIX,tidal.com,代理服务器
+  - DOMAIN-SUFFIX,c4assets.com,代理服务器
+  - DOMAIN-SUFFIX,channel4.com,代理服务器
+  - DOMAIN-SUFFIX,abema.io,代理服务器
+  - DOMAIN-SUFFIX,ameba.jp,代理服务器
+  - DOMAIN-SUFFIX,abema.tv,代理服务器
+  - DOMAIN-SUFFIX,hayabusa.io,代理服务器
+  - DOMAIN,abematv.akamaized.net,代理服务器
+  - DOMAIN,ds-linear-abematv.akamaized.net,代理服务器
+  - DOMAIN,ds-vod-abematv.akamaized.net,代理服务器
+  - DOMAIN,linear-abematv.akamaized.net,代理服务器
+  - DOMAIN-SUFFIX,aiv-cdn.net,代理服务器
+  - DOMAIN-SUFFIX,aiv-delivery.net,代理服务器
+  - DOMAIN-SUFFIX,amazonvideo.com,代理服务器
+  - DOMAIN-SUFFIX,primevideo.com,代理服务器
+  - DOMAIN,avodmp4s3ww-a.akamaihd.net,代理服务器
+  - DOMAIN,d25xi40x97liuc.cloudfront.net,代理服务器
+  - DOMAIN,dmqdd6hw24ucf.cloudfront.net,代理服务器
+  - DOMAIN,d22qjgkvxw22r6.cloudfront.net,代理服务器
+  - DOMAIN,d1v5ir2lpwr8os.cloudfront.net,代理服务器
+  - DOMAIN-KEYWORD,avoddashs,代理服务器
+  - DOMAIN-SUFFIX,bahamut.com.tw,代理服务器
+  - DOMAIN-SUFFIX,gamer.com.tw,代理服务器
+  - DOMAIN,gamer-cds.cdn.hinet.net,代理服务器
+  - DOMAIN,gamer2-cds.cdn.hinet.net,代理服务器
+  - DOMAIN-SUFFIX,bbc.co.uk,代理服务器
+  - DOMAIN-SUFFIX,bbci.co.uk,代理服务器
+  - DOMAIN-KEYWORD,bbcfmt,代理服务器
+  - DOMAIN-KEYWORD,uk-live,代理服务器
+  - DOMAIN-SUFFIX,dazn.com,代理服务器
+  - DOMAIN-SUFFIX,dazn-api.com,代理服务器
+  - DOMAIN,d151l6v8er5bdm.cloudfront.net,代理服务器
+  - DOMAIN-KEYWORD,voddazn,代理服务器
+  - DOMAIN-SUFFIX,bamgrid.com,代理服务器
+  - DOMAIN-SUFFIX,disney-plus.net,代理服务器
+  - DOMAIN-SUFFIX,disneyplus.com,代理服务器
+  - DOMAIN-SUFFIX,dssott.com,代理服务器
+  - DOMAIN,cdn.registerdisney.go.com,代理服务器
+  - DOMAIN-SUFFIX,encoretvb.com,代理服务器
+  - DOMAIN,edge.api.brightcove.com,代理服务器
+  - DOMAIN,bcbolt446c5271-a.akamaihd.net,代理服务器
+  - DOMAIN-SUFFIX,fox.com,代理服务器
+  - DOMAIN-SUFFIX,foxdcg.com,代理服务器
+  - DOMAIN-SUFFIX,theplatform.com,代理服务器
+  - DOMAIN-SUFFIX,uplynk.com,代理服务器
+  - DOMAIN-SUFFIX,hbo.com,代理服务器
+  - DOMAIN-SUFFIX,hbogo.com,代理服务器
+  - DOMAIN-SUFFIX,hbonow.com,代理服务器
+  - DOMAIN-SUFFIX,hbogoasia.com,代理服务器
+  - DOMAIN-SUFFIX,hbogoasia.hk,代理服务器
+  - DOMAIN,bcbolthboa-a.akamaihd.net,代理服务器
+  - DOMAIN,players.brightcove.net,代理服务器
+  - DOMAIN,s3-ap-southeast-1.amazonaws.com,代理服务器
+  - DOMAIN,dai3fd1oh325y.cloudfront.net,代理服务器
+  - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,代理服务器
+  - DOMAIN,hboasia1-i.akamaihd.net,代理服务器
+  - DOMAIN,hboasia2-i.akamaihd.net,代理服务器
+  - DOMAIN,hboasia3-i.akamaihd.net,代理服务器
+  - DOMAIN,hboasia4-i.akamaihd.net,代理服务器
+  - DOMAIN,hboasia5-i.akamaihd.net,代理服务器
+  - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,代理服务器
+  - DOMAIN-SUFFIX,5itv.tv,代理服务器
+  - DOMAIN-SUFFIX,oCN-赵曦ttv.com,代理服务器
+  - DOMAIN-SUFFIX,hulu.com,代理服务器
+  - DOMAIN-SUFFIX,huluim.com,代理服务器
+  - DOMAIN-SUFFIX,hulustream.com,代理服务器
+  - DOMAIN-SUFFIX,happyon.jp,代理服务器
+  - DOMAIN-SUFFIX,hulu.jp,代理服务器
+  - DOMAIN-SUFFIX,itv.com,代理服务器
+  - DOMAIN-SUFFIX,itvstatic.com,代理服务器
+  - DOMAIN,itvpnpmobile-a.akamaihd.net,代理服务器
+  - DOMAIN-SUFFIX,kktv.com.tw,代理服务器
+  - DOMAIN-SUFFIX,kktv.me,代理服务器
+  - DOMAIN,kktv-theater.kk.stream,代理服务器
+  - DOMAIN-SUFFIX,linetv.tw,代理服务器
+  - DOMAIN,d3c7rimkq79yfu.cloudfront.net,代理服务器
+  - DOMAIN-SUFFIX,litv.tv,代理服务器
+  - DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,代理服务器
+  - DOMAIN-SUFFIX,channel5.com,代理服务器
+  - DOMAIN-SUFFIX,my5.tv,代理服务器
+  - DOMAIN,d349g9zuie06uo.cloudfront.net,代理服务器
+  - DOMAIN-SUFFIX,mytvsuper.com,代理服务器
+  - DOMAIN-SUFFIX,tvb.com,代理服务器
+  - DOMAIN-SUFFIX,netflix.com,代理服务器
+  - DOMAIN-SUFFIX,netflix.net,代理服务器
+  - DOMAIN-SUFFIX,nflxext.com,代理服务器
+  - DOMAIN-SUFFIX,nflximg.com,代理服务器
+  - DOMAIN-SUFFIX,nflximg.net,代理服务器
+  - DOMAIN-SUFFIX,nflxso.net,代理服务器
+  - DOMAIN-SUFFIX,nflxvideo.net,代理服务器
+  - DOMAIN-SUFFIX,netflixdnstest0.com,代理服务器
+  - DOMAIN-SUFFIX,netflixdnstest1.com,代理服务器
+  - DOMAIN-SUFFIX,netflixdnstest2.com,代理服务器
+  - DOMAIN-SUFFIX,netflixdnstest3.com,代理服务器
+  - DOMAIN-SUFFIX,netflixdnstest4.com,代理服务器
+  - DOMAIN-SUFFIX,netflixdnstest5.com,代理服务器
+  - DOMAIN-SUFFIX,netflixdnstest6.com,代理服务器
+  - DOMAIN-SUFFIX,netflixdnstest7.com,代理服务器
+  - DOMAIN-SUFFIX,netflixdnstest8.com,代理服务器
+  - DOMAIN-SUFFIX,netflixdnstest9.com,代理服务器
+  - IP-CIDR,23.246.0.0/18,代理服务器,no-resolve
+  - IP-CIDR,37.77.184.0/21,代理服务器,no-resolve
+  - IP-CIDR,45.57.0.0/17,代理服务器,no-resolve
+  - IP-CIDR,64.120.128.0/17,代理服务器,no-resolve
+  - IP-CIDR,66.197.128.0/17,代理服务器,no-resolve
+  - IP-CIDR,108.175.32.0/20,代理服务器,no-resolve
+  - IP-CIDR,192.173.64.0/18,代理服务器,no-resolve
+  - IP-CIDR,198.38.96.0/19,代理服务器,no-resolve
+  - IP-CIDR,198.45.48.0/20,代理服务器,no-resolve
+  - DOMAIN-SUFFIX,dmc.nico,代理服务器
+  - DOMAIN-SUFFIX,nicovideo.jp,代理服务器
+  - DOMAIN-SUFFIX,nimg.jp,代理服务器
+  - DOMAIN-SUFFIX,socdm.com,代理服务器
+  - DOMAIN-SUFFIX,pbs.org,代理服务器
+  - DOMAIN-SUFFIX,phncdn.com,代理服务器
+  - DOMAIN-SUFFIX,pornhub.com,代理服务器
+  - DOMAIN-SUFFIX,pornhubpremium.com,代理服务器
+  - DOMAIN-SUFFIX,skyking.com.tw,代理服务器
+  - DOMAIN,hamifans.emome.net,代理服务器
+  - DOMAIN-SUFFIX,twitch.tv,代理服务器
+  - DOMAIN-SUFFIX,twitchcdn.net,代理服务器
+  - DOMAIN-SUFFIX,ttvnw.net,代理服务器
+  - DOMAIN-SUFFIX,jtvnw.net,代理服务器
+  - DOMAIN-SUFFIX,viu.com,代理服务器
+  - DOMAIN-SUFFIX,viu.tv,代理服务器
+  - DOMAIN,api.viu.now.com,代理服务器
+  - DOMAIN,d1k2us671qcoau.cloudfront.net,代理服务器
+  - DOMAIN,d2anahhhmp1ffz.cloudfront.net,代理服务器
+  - DOMAIN,dfp6rglgjqszk.cloudfront.net,代理服务器
+  - DOMAIN-SUFFIX,googlevideo.com,代理服务器
+  - DOMAIN-SUFFIX,youtube.com,代理服务器
+  - DOMAIN,youtubei.googleapis.com,代理服务器
+  - DOMAIN-SUFFIX,biliapi.com,直连
+  - DOMAIN-SUFFIX,biliapi.net,直连
+  - DOMAIN-SUFFIX,bilibili.com,直连
+  - DOMAIN-SUFFIX,bilibili.tv,直连
+  - DOMAIN-SUFFIX,bilivideo.com,直连
   - DOMAIN-SUFFIX,local,DIRECT
   - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
   - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
@@ -1074,7 +936,7 @@ rules:
   - DOMAIN-SUFFIX,dandanzan.com,DIRECT
   - DOMAIN-SUFFIX,fjhps.com,DIRECT
   - DOMAIN-SUFFIX,kuyunbo.club,DIRECT
-  - DOMAIN-SUFFIX,21cn.com,DIRECT
+  - DOMAIN-SUFFIX,21CN-赵曦.com,DIRECT
   - DOMAIN-SUFFIX,hitv.com,DIRECT
   - DOMAIN-SUFFIX,mgtv.com,DIRECT
   - DOMAIN-SUFFIX,iqiyi.com,DIRECT
@@ -1096,7 +958,7 @@ rules:
   - DOMAIN-SUFFIX,miwifi.com,DIRECT
   - DOMAIN-SUFFIX,xiaomi.com,DIRECT
   - DOMAIN-SUFFIX,microsoft.com,DIRECT
-  - DOMAIN-SUFFIX,msecnd.net,DIRECT
+  - DOMAIN-SUFFIX,mseCN-赵曦d.net,DIRECT
   - DOMAIN-SUFFIX,office365.com,DIRECT
   - DOMAIN-SUFFIX,outlook.com,DIRECT
   - DOMAIN-SUFFIX,s-microsoft.com,DIRECT
@@ -1238,7 +1100,7 @@ rules:
   - DOMAIN-SUFFIX,wiley.com,DIRECT
   - DOMAIN-SUFFIX,worldbank.org,DIRECT
   - DOMAIN-SUFFIX,worldscientific.com,DIRECT
-  - DOMAIN-SUFFIX,cn,DIRECT
+  - DOMAIN-SUFFIX,CN-赵曦,DIRECT
   - DOMAIN-SUFFIX,360in.com,DIRECT
   - DOMAIN-SUFFIX,51ym.me,DIRECT
   - DOMAIN-SUFFIX,8686c.com,DIRECT
@@ -1309,7 +1171,7 @@ rules:
   - DOMAIN-SUFFIX,moke.com,DIRECT
   - DOMAIN-SUFFIX,mubu.com,DIRECT
   - DOMAIN-SUFFIX,myzaker.com,DIRECT
-  - DOMAIN-SUFFIX,nim-lang-cn.org,DIRECT
+  - DOMAIN-SUFFIX,nim-lang-CN-赵曦.org,DIRECT
   - DOMAIN-SUFFIX,nvidia.com,DIRECT
   - DOMAIN-SUFFIX,oracle.com,DIRECT
   - DOMAIN-SUFFIX,paypal.com,DIRECT
@@ -1349,7 +1211,7 @@ rules:
   - DOMAIN-SUFFIX,zhimg.com,DIRECT
   - DOMAIN-SUFFIX,zhuihd.com,DIRECT
   - DOMAIN,download.jetbrains.com,DIRECT
-  - DOMAIN,images-cn.ssl-images-amazon.com,DIRECT
+  - DOMAIN,images-CN-赵曦.ssl-images-amazon.com,DIRECT
   - IP-CIDR,119.28.28.28/32,DIRECT,no-resolve
-  - GEOIP,CN,DIRECT
+  - GEOIP,CN-赵曦,DIRECT
   - MATCH,其他
