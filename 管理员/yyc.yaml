@@ -1,110 +1,403 @@
+
 port: 7890
 socks-port: 7891
 redir-port: 7892
 allow-lan: false
 mode: rule
 log-level: silent
-external-controller: 0.0.0.0:9090
-secret: ""
+external-controller: '0.0.0.0:9090'
+secret: ''
 proxies:
-  - { "name": "翼臣", "type": "vmess", "server": "yycm.top", "port": 108, "uuid": "14e03739-bb0c-3866-a286-02d5372d527a", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
-  - { "name": "🇨🇳-CN-翼臣-中国-印度
-        I", "type": "vmess", "server": "yycmvm.ifaner.top", "port": 1008, "uuid": "14e03739-bb0c-3866-a286-02d5372d527a", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
-  - { "name": "🇨🇳-CN-翼臣-中国-台湾
-        I", "type": "vmess", "server": "yycmvm.ifaner.top", "port": 5152, "uuid": "14e03739-bb0c-3866-a286-02d5372d527a", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
-  - { "name": "🇨🇳-CN-翼臣-中国-台湾
-        II", "type": "vmess", "server": "yycmvm.ifaner.top", "port": 37617, "uuid": "14e03739-bb0c-3866-a286-02d5372d527a", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
-  - { "name": "🇨🇳-CN-翼臣-中国-台湾
-        III", "type": "vmess", "server": "yycmvm.ifaner.top", "port": 17617, "uuid": "14e03739-bb0c-3866-a286-02d5372d527a", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
-  - { "name": "🇨🇳-CN-翼臣-中国-台湾
-        IV", "type": "vmess", "server": "mzqlpieszcm.ifaner.club", "port": 59909, "uuid": "14e03739-bb0c-3866-a286-02d5372d527a", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
-  - { "name": "🇨🇳-CN-翼臣-中国-德国
-        -DE", "type": "vmess", "server": "yycmvm.ifaner.top", "port": 50717, "uuid": "14e03739-bb0c-3866-a286-02d5372d527a", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
-  - { "name": "🇨🇳-CN-翼臣-中国-新加坡
-        I", "type": "vmess", "server": "yycmvm.ifaner.top", "port": 44342, "uuid": "14e03739-bb0c-3866-a286-02d5372d527a", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
-  - { "name": "🇨🇳-CN-翼臣-中国-新加坡
-        II", "type": "vmess", "server": "yycmvm.ifaner.top", "port": 28373, "uuid": "14e03739-bb0c-3866-a286-02d5372d527a", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
-  - { "name": "🇨🇳-CN-翼臣-中国-新加坡
-        III", "type": "vmess", "server": "mzqlpieszcm.ifaner.club", "port": 20715, "uuid": "14e03739-bb0c-3866-a286-02d5372d527a", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
-  - { "name": "🇨🇳-CN-翼臣-中国-日本
-        I", "type": "vmess", "server": "yycmvm.ifaner.top", "port": 32228, "uuid": "14e03739-bb0c-3866-a286-02d5372d527a", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
-  - { "name": "🇨🇳-CN-翼臣-中国-日本
-        II", "type": "vmess", "server": "hntelecom.ifanr.org", "port": 22513, "uuid": "14e03739-bb0c-3866-a286-02d5372d527a", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
-  - { "name": "🇨🇳-CN-翼臣-中国-日本
-        III", "type": "vmess", "server": "yycmvm.ifaner.top", "port": 10433, "uuid": "14e03739-bb0c-3866-a286-02d5372d527a", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
-  - { "name": "🇨🇳-CN-翼臣-中国-日本
-        IV", "type": "vmess", "server": "hntelecom.ifanr.org", "port": 28874, "uuid": "14e03739-bb0c-3866-a286-02d5372d527a", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
-  - { "name": "🇨🇳-CN-翼臣-中国-美国
-        VI", "type": "vmess", "server": "hntelecom.ifanr.org", "port": 20703, "uuid": "14e03739-bb0c-3866-a286-02d5372d527a", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
-  - { "name": "🇨🇳-CN-翼臣-中国-美国
-        I", "type": "vmess", "server": "hntelecom.ifanr.org", "port": 50749, "uuid": "14e03739-bb0c-3866-a286-02d5372d527a", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
-  - { "name": "🇨🇳-CN-翼臣-中国-美国
-        II", "type": "vmess", "server": "yycmvm.bana.ink", "port": 20514, "uuid": "14e03739-bb0c-3866-a286-02d5372d527a", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
-  - { "name": "🇨🇳-CN-翼臣-中国-美国
-        III", "type": "vmess", "server": "hntelecom.ifanr.org", "port": 20627, "uuid": "14e03739-bb0c-3866-a286-02d5372d527a", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
-  - { "name": "🇨🇳-CN-翼臣-中国-美国
-        IV", "type": "vmess", "server": "yycmvm.bana.ink", "port": 59028, "uuid": "14e03739-bb0c-3866-a286-02d5372d527a", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
-  - { "name": "🇨🇳-CN-翼臣-中国-美国
-        V", "type": "vmess", "server": "hntelecom.ifanr.org", "port": 20702, "uuid": "14e03739-bb0c-3866-a286-02d5372d527a", "alterId": 0, "cipher": "auto", "udp": true, "servername": "support.microsoft.com", "network": "ws", "ws-path": "/microsoft/support", "ws-headers": { "Host": "support.microsoft.com" }, "ws-opts": { "path": "/microsoft/support", "headers": { "Host": "support.microsoft.com" } } }
-  - {
-      "name": "🇨🇳-CN-翼臣-中国-韩国Kr",
-      "type": "vmess",
-      "server": "yycmvm.bana.ink",
-      "port": 20407,
-      "uuid": "14e03739-bb0c-3866-a286-02d5372d527a",
-      "alterId": 0,
-      "cipher": "auto",
-      "udp": true,
-      "servername": "support.microsoft.com",
-      "network": "ws",
-      "ws-path": "/microsoft/support",
-      "ws-headers": { "Host": "support.microsoft.com" },
-      "ws-opts":
-        {
-          "path": "/microsoft/support",
-          "headers": { "Host": "support.microsoft.com" },
-        },
-    }
+  
+  -
+    name: '印度 I'
+    type: vmess
+    server: yycmvm.ifaner.top
+    port: 1008
+    uuid: 4c6c5faa-3944-3b0f-bc62-a8a7fda849fa
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: support.microsoft.com
+    network: ws
+    ws-path: /microsoft/support
+    ws-headers:
+      Host: support.microsoft.com
+    ws-opts:
+      path: /microsoft/support
+      headers: { Host: support.microsoft.com }
+  -
+    name: '台湾 I'
+    type: vmess
+    server: yycmvm.ifaner.top
+    port: 5152
+    uuid: 4c6c5faa-3944-3b0f-bc62-a8a7fda849fa
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: support.microsoft.com
+    network: ws
+    ws-path: /microsoft/support
+    ws-headers:
+      Host: support.microsoft.com
+    ws-opts:
+      path: /microsoft/support
+      headers: { Host: support.microsoft.com }
+  -
+    name: '台湾 II'
+    type: vmess
+    server: yycmvm.ifaner.top
+    port: 37617
+    uuid: 4c6c5faa-3944-3b0f-bc62-a8a7fda849fa
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: support.microsoft.com
+    network: ws
+    ws-path: /microsoft/support
+    ws-headers:
+      Host: support.microsoft.com
+    ws-opts:
+      path: /microsoft/support
+      headers: { Host: support.microsoft.com }
+  -
+    name: '台湾 III'
+    type: vmess
+    server: yycmvm.ifaner.top
+    port: 17617
+    uuid: 4c6c5faa-3944-3b0f-bc62-a8a7fda849fa
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: support.microsoft.com
+    network: ws
+    ws-path: /microsoft/support
+    ws-headers:
+      Host: support.microsoft.com
+    ws-opts:
+      path: /microsoft/support
+      headers: { Host: support.microsoft.com }
+  -
+    name: '台湾 IV'
+    type: vmess
+    server: mzqlpieszcm.ifaner.club
+    port: 59909
+    uuid: 4c6c5faa-3944-3b0f-bc62-a8a7fda849fa
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: support.microsoft.com
+    network: ws
+    ws-path: /microsoft/support
+    ws-headers:
+      Host: support.microsoft.com
+    ws-opts:
+      path: /microsoft/support
+      headers: { Host: support.microsoft.com }
+  -
+    name: '德国 -DE'
+    type: vmess
+    server: yycmvm.ifaner.top
+    port: 50717
+    uuid: 4c6c5faa-3944-3b0f-bc62-a8a7fda849fa
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: support.microsoft.com
+    network: ws
+    ws-path: /microsoft/support
+    ws-headers:
+      Host: support.microsoft.com
+    ws-opts:
+      path: /microsoft/support
+      headers: { Host: support.microsoft.com }
+  -
+    name: '新加坡 I'
+    type: vmess
+    server: yycmvm.ifaner.top
+    port: 44342
+    uuid: 4c6c5faa-3944-3b0f-bc62-a8a7fda849fa
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: support.microsoft.com
+    network: ws
+    ws-path: /microsoft/support
+    ws-headers:
+      Host: support.microsoft.com
+    ws-opts:
+      path: /microsoft/support
+      headers: { Host: support.microsoft.com }
+  -
+    name: '新加坡 II'
+    type: vmess
+    server: yycmvm.ifaner.top
+    port: 28373
+    uuid: 4c6c5faa-3944-3b0f-bc62-a8a7fda849fa
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: support.microsoft.com
+    network: ws
+    ws-path: /microsoft/support
+    ws-headers:
+      Host: support.microsoft.com
+    ws-opts:
+      path: /microsoft/support
+      headers: { Host: support.microsoft.com }
+  -
+    name: '新加坡 III'
+    type: vmess
+    server: mzqlpieszcm.ifaner.club
+    port: 20715
+    uuid: 4c6c5faa-3944-3b0f-bc62-a8a7fda849fa
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: support.microsoft.com
+    network: ws
+    ws-path: /microsoft/support
+    ws-headers:
+      Host: support.microsoft.com
+    ws-opts:
+      path: /microsoft/support
+      headers: { Host: support.microsoft.com }
+  -
+    name: '日本 I'
+    type: vmess
+    server: yycmvm.ifaner.top
+    port: 32228
+    uuid: 4c6c5faa-3944-3b0f-bc62-a8a7fda849fa
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: support.microsoft.com
+    network: ws
+    ws-path: /microsoft/support
+    ws-headers:
+      Host: support.microsoft.com
+    ws-opts:
+      path: /microsoft/support
+      headers: { Host: support.microsoft.com }
+  -
+    name: '日本 II'
+    type: vmess
+    server: hntelecom.ifanr.org
+    port: 22513
+    uuid: 4c6c5faa-3944-3b0f-bc62-a8a7fda849fa
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: support.microsoft.com
+    network: ws
+    ws-path: /microsoft/support
+    ws-headers:
+      Host: support.microsoft.com
+    ws-opts:
+      path: /microsoft/support
+      headers: { Host: support.microsoft.com }
+  -
+    name: '日本 III'
+    type: vmess
+    server: yycmvm.ifaner.top
+    port: 10433
+    uuid: 4c6c5faa-3944-3b0f-bc62-a8a7fda849fa
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: support.microsoft.com
+    network: ws
+    ws-path: /microsoft/support
+    ws-headers:
+      Host: support.microsoft.com
+    ws-opts:
+      path: /microsoft/support
+      headers: { Host: support.microsoft.com }
+  -
+    name: '日本 IV'
+    type: vmess
+    server: hntelecom.ifanr.org
+    port: 28874
+    uuid: 4c6c5faa-3944-3b0f-bc62-a8a7fda849fa
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: support.microsoft.com
+    network: ws
+    ws-path: /microsoft/support
+    ws-headers:
+      Host: support.microsoft.com
+    ws-opts:
+      path: /microsoft/support
+      headers: { Host: support.microsoft.com }
+  -
+    name: '美国  VI'
+    type: vmess
+    server: hntelecom.ifanr.org
+    port: 20703
+    uuid: 4c6c5faa-3944-3b0f-bc62-a8a7fda849fa
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: support.microsoft.com
+    network: ws
+    ws-path: /microsoft/support
+    ws-headers:
+      Host: support.microsoft.com
+    ws-opts:
+      path: /microsoft/support
+      headers: { Host: support.microsoft.com }
+  -
+    name: '美国 I'
+    type: vmess
+    server: hntelecom.ifanr.org
+    port: 50749
+    uuid: 4c6c5faa-3944-3b0f-bc62-a8a7fda849fa
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: support.microsoft.com
+    network: ws
+    ws-path: /microsoft/support
+    ws-headers:
+      Host: support.microsoft.com
+    ws-opts:
+      path: /microsoft/support
+      headers: { Host: support.microsoft.com }
+  -
+    name: '美国 II'
+    type: vmess
+    server: yycmvm.bana.ink
+    port: 20514
+    uuid: 4c6c5faa-3944-3b0f-bc62-a8a7fda849fa
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: support.microsoft.com
+    network: ws
+    ws-path: /microsoft/support
+    ws-headers:
+      Host: support.microsoft.com
+    ws-opts:
+      path: /microsoft/support
+      headers: { Host: support.microsoft.com }
+  -
+    name: '美国 III'
+    type: vmess
+    server: hntelecom.ifanr.org
+    port: 20627
+    uuid: 4c6c5faa-3944-3b0f-bc62-a8a7fda849fa
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: support.microsoft.com
+    network: ws
+    ws-path: /microsoft/support
+    ws-headers:
+      Host: support.microsoft.com
+    ws-opts:
+      path: /microsoft/support
+      headers: { Host: support.microsoft.com }
+  -
+    name: '美国 IV'
+    type: vmess
+    server: yycmvm.bana.ink
+    port: 59028
+    uuid: 4c6c5faa-3944-3b0f-bc62-a8a7fda849fa
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: support.microsoft.com
+    network: ws
+    ws-path: /microsoft/support
+    ws-headers:
+      Host: support.microsoft.com
+    ws-opts:
+      path: /microsoft/support
+      headers: { Host: support.microsoft.com }
+  -
+    name: '美国 V'
+    type: vmess
+    server: hntelecom.ifanr.org
+    port: 20702
+    uuid: 4c6c5faa-3944-3b0f-bc62-a8a7fda849fa
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: support.microsoft.com
+    network: ws
+    ws-path: /microsoft/support
+    ws-headers:
+      Host: support.microsoft.com
+    ws-opts:
+      path: /microsoft/support
+      headers: { Host: support.microsoft.com }
+  -
+    name: 韩国Kr
+    type: vmess
+    server: yycmvm.bana.ink
+    port: 20407
+    uuid: 4c6c5faa-3944-3b0f-bc62-a8a7fda849fa
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: support.microsoft.com
+    network: ws
+    ws-path: /microsoft/support
+    ws-headers:
+      Host: support.microsoft.com
+    ws-opts:
+      path: /microsoft/support
+      headers: { Host: support.microsoft.com }
 proxy-groups:
-
-  - name: 代理服务器
+  -
+    name: 代理服务器
     type: select
     proxies:
-      - 🇨🇳-CN-翼臣-中国-印度 I
-      - 🇨🇳-CN-翼臣-中国-台湾 I
-      - 🇨🇳-CN-翼臣-中国-台湾 II
-      - 🇨🇳-CN-翼臣-中国-台湾 III
-      - 🇨🇳-CN-翼臣-中国-台湾 IV
-      - 🇨🇳-CN-翼臣-中国-德国 -DE
-      - 🇨🇳-CN-翼臣-中国-新加坡 I
-      - 🇨🇳-CN-翼臣-中国-新加坡 II
-      - 🇨🇳-CN-翼臣-中国-新加坡 III
-      - 🇨🇳-CN-翼臣-中国-日本 I
-      - 🇨🇳-CN-翼臣-中国-日本 II
-      - 🇨🇳-CN-翼臣-中国-日本 III
-      - 🇨🇳-CN-翼臣-中国-日本 IV
-      - 🇨🇳-CN-翼臣-中国-美国 VI
-      - 🇨🇳-CN-翼臣-中国-美国 I
-      - 🇨🇳-CN-翼臣-中国-美国 II
-      - 🇨🇳-CN-翼臣-中国-美国 III
-      - 🇨🇳-CN-翼臣-中国-美国 IV
-      - 🇨🇳-CN-翼臣-中国-美国 V
-      - 🇨🇳-CN-翼臣-中国-韩国Kr
-  - name: 其他
-    type: select
-    proxies:
+      - '印度 I'
+      - '台湾 I'
+      - '台湾 II'
+      - '台湾 III'
+      - '台湾 IV'
+      - '德国 -DE'
+      - '新加坡 I'
+      - '新加坡 II'
+      - '新加坡 III'
+      - '日本 I'
+      - '日本 II'
+      - '日本 III'
+      - '日本 IV'
+      - '美国  VI'
+      - '美国 I'
+      - '美国 II'
+      - '美国 III'
+      - '美国 IV'
+      - '美国 V'
+      - 韩国Kr
       - 直连
-  - name: 直连
+  -
+    name: 其他
+    type: select
+    proxies:
+      - 代理服务器
+      - 直连
+      - 拒绝访问
+  -
+    name: 直连
     type: select
     proxies:
       - DIRECT
-  - name: 禁止访问
+  -
+    name: 拒绝访问
     type: select
     proxies:
       - REJECT
+
+
 rules:
   - DOMAIN-SUFFIX,smtp,DIRECT
   - DOMAIN-KEYWORD,aria2,DIRECT
+
   - DOMAIN-SUFFIX,ampproject.org,代理服务器
   - DOMAIN-SUFFIX,appspot.com,代理服务器
   - DOMAIN-SUFFIX,blogger.com,代理服务器
@@ -208,7 +501,7 @@ rules:
   - DOMAIN-SUFFIX,bitmex.com,代理服务器
   - DOMAIN-SUFFIX,bit-z.com,代理服务器
   - DOMAIN-SUFFIX,bloglovin.com,代理服务器
-  - DOMAIN-SUFFIX,bloomberg.CN-翼臣,代理服务器
+  - DOMAIN-SUFFIX,bloomberg.cn,代理服务器
   - DOMAIN-SUFFIX,bloomberg.com,代理服务器
   - DOMAIN-SUFFIX,blubrry.com,代理服务器
   - DOMAIN-SUFFIX,book.com.tw,代理服务器
@@ -226,7 +519,7 @@ rules:
   - DOMAIN-SUFFIX,ck101.com,代理服务器
   - DOMAIN-SUFFIX,clarionproject.org,代理服务器
   - DOMAIN-SUFFIX,clyp.it,代理服务器
-  - DOMAIN-SUFFIX,CN-翼臣a.com.tw,代理服务器
+  - DOMAIN-SUFFIX,cna.com.tw,代理服务器
   - DOMAIN-SUFFIX,comparitech.com,代理服务器
   - DOMAIN-SUFFIX,conoha.jp,代理服务器
   - DOMAIN-SUFFIX,crucial.com,代理服务器
@@ -353,7 +646,7 @@ rules:
   - DOMAIN-SUFFIX,nrk.no,代理服务器
   - DOMAIN-SUFFIX,nyt.com,代理服务器
   - DOMAIN-SUFFIX,nytchina.com,代理服务器
-  - DOMAIN-SUFFIX,nytCN-翼臣.me,代理服务器
+  - DOMAIN-SUFFIX,nytcn.me,代理服务器
   - DOMAIN-SUFFIX,nytco.com,代理服务器
   - DOMAIN-SUFFIX,nytimes.com,代理服务器
   - DOMAIN-SUFFIX,nytimg.com,代理服务器
@@ -490,7 +783,7 @@ rules:
   - DOMAIN-SUFFIX,clearsurance.com,代理服务器
   - DOMAIN-SUFFIX,costco.com,代理服务器
   - DOMAIN-SUFFIX,crackle.com,代理服务器
-  - DOMAIN-SUFFIX,depositphotos.CN-翼臣,代理服务器
+  - DOMAIN-SUFFIX,depositphotos.cn,代理服务器
   - DOMAIN-SUFFIX,dish.com,代理服务器
   - DOMAIN-SUFFIX,dmm.co.jp,代理服务器
   - DOMAIN-SUFFIX,dmm.com,代理服务器
@@ -610,7 +903,7 @@ rules:
   - DOMAIN-SUFFIX,discord.gg,代理服务器
   - DOMAIN-SUFFIX,discuss.com.hk,代理服务器
   - DOMAIN-SUFFIX,dropboxapi.com,代理服务器
-  - DOMAIN-SUFFIX,duolingo.CN-翼臣,代理服务器
+  - DOMAIN-SUFFIX,duolingo.cn,代理服务器
   - DOMAIN-SUFFIX,edditstatic.com,代理服务器
   - DOMAIN-SUFFIX,flickriver.com,代理服务器
   - DOMAIN-SUFFIX,focustaiwan.tw,代理服务器
@@ -648,6 +941,7 @@ rules:
   - DOMAIN-SUFFIX,yimg.com,代理服务器
   - DOMAIN,api.steampowered.com,代理服务器
   - DOMAIN,store.steampowered.com,代理服务器
+
   - DOMAIN-SUFFIX,aaplimg.com,代理服务器
   - DOMAIN-SUFFIX,apple.co,代理服务器
   - DOMAIN-SUFFIX,apple.com,代理服务器
@@ -660,6 +954,7 @@ rules:
   - DOMAIN-SUFFIX,me.com,代理服务器
   - DOMAIN-SUFFIX,mzstatic.com,代理服务器
   - DOMAIN,www-cdn.icloud.com.akadns.net,代理服务器
+
   - DOMAIN-SUFFIX,t.me,代理服务器
   - DOMAIN-SUFFIX,tdesktop.com,代理服务器
   - DOMAIN-SUFFIX,telegra.ph,代理服务器
@@ -674,9 +969,11 @@ rules:
   - IP-CIDR6,2001:b28:f23d::/48,代理服务器,no-resolve
   - IP-CIDR6,2001:b28:f23f::/48,代理服务器,no-resolve
   - IP-CIDR6,2001:67c:4e8::/48,代理服务器,no-resolve
+
   - DOMAIN-SUFFIX,googlevideo.com,代理服务器
   - DOMAIN-SUFFIX,youtube.com,代理服务器
   - DOMAIN,youtubei.googleapis.com,代理服务器
+
   - DOMAIN-SUFFIX,netflix.com,代理服务器
   - DOMAIN-SUFFIX,netflix.net,代理服务器
   - DOMAIN-SUFFIX,nflxext.com,代理服务器
@@ -703,6 +1000,7 @@ rules:
   - IP-CIDR,192.173.64.0/18,代理服务器,no-resolve
   - IP-CIDR,198.38.96.0/19,代理服务器,no-resolve
   - IP-CIDR,198.45.48.0/20,代理服务器,no-resolve
+
   - DOMAIN-SUFFIX,deezer.com,代理服务器
   - DOMAIN-SUFFIX,dzcdn.net,代理服务器
   - DOMAIN-SUFFIX,kkbox.com,代理服务器
@@ -781,7 +1079,7 @@ rules:
   - DOMAIN,hboasia5-i.akamaihd.net,代理服务器
   - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,代理服务器
   - DOMAIN-SUFFIX,5itv.tv,代理服务器
-  - DOMAIN-SUFFIX,oCN-翼臣ttv.com,代理服务器
+  - DOMAIN-SUFFIX,ocnttv.com,代理服务器
   - DOMAIN-SUFFIX,hulu.com,代理服务器
   - DOMAIN-SUFFIX,huluim.com,代理服务器
   - DOMAIN-SUFFIX,hulustream.com,代理服务器
@@ -856,6 +1154,7 @@ rules:
   - DOMAIN-SUFFIX,bilibili.com,直连
   - DOMAIN-SUFFIX,bilibili.tv,直连
   - DOMAIN-SUFFIX,bilivideo.com,直连
+
   - DOMAIN-SUFFIX,local,DIRECT
   - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
   - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
@@ -933,7 +1232,7 @@ rules:
   - DOMAIN-SUFFIX,dandanzan.com,DIRECT
   - DOMAIN-SUFFIX,fjhps.com,DIRECT
   - DOMAIN-SUFFIX,kuyunbo.club,DIRECT
-  - DOMAIN-SUFFIX,21CN-翼臣.com,DIRECT
+  - DOMAIN-SUFFIX,21cn.com,DIRECT
   - DOMAIN-SUFFIX,hitv.com,DIRECT
   - DOMAIN-SUFFIX,mgtv.com,DIRECT
   - DOMAIN-SUFFIX,iqiyi.com,DIRECT
@@ -955,7 +1254,7 @@ rules:
   - DOMAIN-SUFFIX,miwifi.com,DIRECT
   - DOMAIN-SUFFIX,xiaomi.com,DIRECT
   - DOMAIN-SUFFIX,microsoft.com,DIRECT
-  - DOMAIN-SUFFIX,mseCN-翼臣d.net,DIRECT
+  - DOMAIN-SUFFIX,msecnd.net,DIRECT
   - DOMAIN-SUFFIX,office365.com,DIRECT
   - DOMAIN-SUFFIX,outlook.com,DIRECT
   - DOMAIN-SUFFIX,s-microsoft.com,DIRECT
@@ -1097,7 +1396,7 @@ rules:
   - DOMAIN-SUFFIX,wiley.com,DIRECT
   - DOMAIN-SUFFIX,worldbank.org,DIRECT
   - DOMAIN-SUFFIX,worldscientific.com,DIRECT
-  - DOMAIN-SUFFIX,CN-翼臣,DIRECT
+  - DOMAIN-SUFFIX,cn,DIRECT
   - DOMAIN-SUFFIX,360in.com,DIRECT
   - DOMAIN-SUFFIX,51ym.me,DIRECT
   - DOMAIN-SUFFIX,8686c.com,DIRECT
@@ -1168,7 +1467,7 @@ rules:
   - DOMAIN-SUFFIX,moke.com,DIRECT
   - DOMAIN-SUFFIX,mubu.com,DIRECT
   - DOMAIN-SUFFIX,myzaker.com,DIRECT
-  - DOMAIN-SUFFIX,nim-lang-CN-翼臣.org,DIRECT
+  - DOMAIN-SUFFIX,nim-lang-cn.org,DIRECT
   - DOMAIN-SUFFIX,nvidia.com,DIRECT
   - DOMAIN-SUFFIX,oracle.com,DIRECT
   - DOMAIN-SUFFIX,paypal.com,DIRECT
@@ -1211,4 +1510,5 @@ rules:
   - DOMAIN,images-cn.ssl-images-amazon.com,DIRECT
   - IP-CIDR,119.28.28.28/32,DIRECT,no-resolve
   - GEOIP,CN,DIRECT
+
   - MATCH,其他
