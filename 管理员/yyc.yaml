@@ -169,8 +169,9 @@ proxy-groups:
   - name: 其他
     type: select
     proxies:
-      - 代理
       - 直连
+      - 代理
+      
 
 rules:
 # 本地/局域网地址
